@@ -7,87 +7,236 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F014C76D32D11E61EDF47EFB1C6B208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		253E23B7F1721A7C9C059770DE833DBA /* Mikoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA324D6798685041E1BB78224ED2877 /* Mikoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05318D7E4E2FE4382CAE51AAA6388A5B /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D5E7E3E88175571B94A24DB4DE145A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		059B2940C3933070CB24AD0672609F87 /* DateFormatter+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F26086FB4D00F74E9104418444FEEE /* DateFormatter+Ex.swift */; };
+		0E083530B4332342AA99343574D1AE1E /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B55F88231D6E27658377BE3331A845 /* Regex.swift */; };
+		16AD915CB984F6D23B60A5C5CFBA059D /* UIImage+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA35055B6CAFBBFA297C11D674859 /* UIImage+Ex.swift */; };
+		1C565997126C5C6E38DF746EFA72709E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		1C5F15584315CBAE3BD5EBD63B17C057 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */; };
+		22F45CB838EBEF04960FE50302D6E953 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A8BF7C6325AFF5C0E79FA63896B9D1 /* SVProgressHUD.framework */; };
+		275DE5FC31174B72004383E4C53354FE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884060FF8CEF89130D709B9220C995F /* SVProgressHUD.m */; };
+		2819A03D0386FE53BBD8A071D4F2E19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		29E64E797336E6F134D3ADA7AAF57CCF /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 127CCB2B3127EB54808E3E5C3162F0C3 /* SVProgressHUD-dummy.m */; };
+		2CB241E1936728F67909929D91A7F8AB /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F2D9DCC8A96E842753FE17CFCF4F0B /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321CE454CDC644B539B466BFBAA63BA3 /* Toast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5127DE37D8264876891D09418658A827 /* Toast.framework */; };
+		346115DFB01E337A52A9D9C8B05E720F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE49AA28DCD0A7E4E9853839E43C9B9 /* SVIndefiniteAnimatedView.m */; };
+		3B8870CEB535A4FF98737A7B23176681 /* CtmTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1A0B11452C8ED3D58124A8F4310FD /* CtmTextField.swift */; };
+		3C7F2E8D6FD54D0708BFE668D5B9D3E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */; };
+		40C95C103719C9BA0AC60037B71408C7 /* UITableViewDataSource+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABDF48854D8CCEC8C296EEF6D8C534 /* UITableViewDataSource+Ex.swift */; };
+		4121F7013374930AD8519E297BBE041F /* DispatchQueue+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B481E316AE87E229B074155C5670F5F /* DispatchQueue+Ex.swift */; };
+		4212A5BCABF3C57E4C034EC5F062DA3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
 		46B9EDA3EA61735B2BCDA65977969454 /* Pods-Mikoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59BE67DD839DF54E548A0ABB46E8844 /* Pods-Mikoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C4C3256FF3DE2243B4DB25CD51E71D7 /* Pods-Mikoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80D68D38586FBDDDB0A1D7DD789B2016 /* Pods-Mikoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */; };
-		96315CAB65CC06A916A64DB7A4A1D2A6 /* Mikoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A59204FAF685962D7651ECDBDD6E02A1 /* Mikoto-dummy.m */; };
-		D2F7680D86E0EF2C6C889B9CC4AE1758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D55EF9296B4075701456B6E3AB847673 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A60BC0D00933678C51FF0C35FE72BE /* ReplaceMe.swift */; };
+		5ADCB9094B17EA33D03CE02528FCEB9E /* Pods-Mikoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */; };
+		5F24D01EB539B1220E8A11CD13567E86 /* Dictionary+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D08F5DC8E852AEC5404892CF2161C /* Dictionary+Ex.swift */; };
+		5FB488697B409668D549CB7E81398656 /* UIFont+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D144CD038884595EA0480E09CC8AF0 /* UIFont+Ex.swift */; };
+		678672462A9B8E8AA94D5E4950C289B6 /* BaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CF75432BB13A8D8204460446E3FC4 /* BaseHelper.swift */; };
+		6FCAF7C445C06DE4C64FC95BA79CD76D /* BHBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A78349AB867F416D4B1014BA2CA7FE /* BHBaseHelper.m */; };
+		758BD95B77ED9E32CF18A3B858E414EC /* CtmTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE87FC5597C1E370CD7A2ADF6FC2FB0 /* CtmTextView.swift */; };
+		775A1121F97A92D18EC56E82C61355EF /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913ECB32E42185A917B88DE3AED7F9D0 /* HUD.swift */; };
+		7AA0F16093D5156694A6672A97997B3E /* UIAlertController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524AD74FE520D452FA75F9DCE457BF3 /* UIAlertController+Ex.swift */; };
+		825FC5C34D4B6DC4978AFB498579FFB9 /* Mikoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896D1C4D29E0ECD3CA409EEA288304E /* Mikoto-dummy.m */; };
+		862C183EFF7965B1FE522BFFFBF753F0 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AE6FB21ED82E8A98AB411DF1745E22 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		87B583B216299F4CD77DA6361B86781E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9849E7128FAB9C014561D01B70FF9170 /* SVProgressAnimatedView.m */; };
+		88448B1F8ED24BE1B3C7B2A33C28DF6A /* Pods-Mikoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD5D4AB3BDDFC66AAD524D0EF2734D1 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290F6E07448610808083F3FEBE6B962 /* String+Ex.swift */; };
+		8D3DE186D0E3FE0B93312CA457AE617B /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC2203CE0ABB67EF2321175B876CBD /* Namespace.swift */; };
+		96237D0ECA87848807617157016EA675 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FFEC46073843D1F0E550DC0BFA5C6 /* UIView+Ex.swift */; };
+		968CC2D16BE5D237B62A160BCDFCBFCF /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9828939E0E7CC4C50078592BA4881F40 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E626A45FF11158C8B785975D36C5C39 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08243061417421E3EDA90AF79D535529 /* Ext.swift */; };
+		A007734DC575CAE418C724CE8A56B558 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1E085608E7894A1F56D9B497CAD55B /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C262429A9C72CC673C9CC88D230AD2 /* Array+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FBFE41BCA275E8AE357A1324448644 /* Array+Ex.swift */; };
+		A589775D9A672893CBBBAFD8CC849D40 /* BHBaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A4AC3C688167E70808591BC3149C1B /* BHBaseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D33E1373D189ED1C2C47A03A123788 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1370F5B0C475E58E4D239EEDC3125E3E /* SVProgressHUD.bundle */; };
+		A7F5A1D349660EC529303B61AFEBEE70 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54389EA5F43FD8BA4F43B7683D819425 /* Toast-dummy.m */; };
+		A80018DA0652902F7BCDFE1204FAE0E0 /* FileManager+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBEAC5B23F4A5B4E34FE6D52E080A01 /* FileManager+Ex.swift */; };
+		A9A8AE48507BBCD040CC453128B501C1 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71C2D93F64E2C5DCD7E5F745E82E0 /* Base.swift */; };
+		AA6035D1F6292249EC856E0E05363C28 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C515E2E5388D8F85308006DED7685EA /* UIColor+Ex.swift */; };
+		AC607CC76BEF2BD0607B701E898EE24A /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E527BFEEC6A924DFFA2BA965BA79A5 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE913D4346BDBFC52E0CAF90A47F04FC /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2C526F9E03389EEB73DDC1A712FC6F /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C062F553B9805FFE084AFA9C91DA61F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		C66DC9E72501B8677222DCE55E766E72 /* UIViewController+Dealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A655D0F66878F931EA5F053C87FFF6A /* UIViewController+Dealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF49C5FC1A2F03014F697EEDBDDE5D2 /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1270CC4CE102412F895BD220AE5BD /* UIViewController+Dealloc.m */; };
+		D2F7680D86E0EF2C6C889B9CC4AE1758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
 		DB987D7D4C731F29D7F9DE10BA6C71E0 /* Pods-Mikoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E12AA48C610C84333A45979D79A7BF1F /* Pods-Mikoto_Tests-dummy.m */; };
-		F8A1509BE40C2D8B3C3AAC8557C136C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DD70FC4E5C101D3037CFE877ED91DBB0 /* UITableView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB937271DEAE2FF8E8BE894242B18A5 /* UITableView+Ex.swift */; };
+		ED40894E95109A839A996B1FF59E2A07 /* Mikoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C5A3B30C635FA778FCD94885960CD4 /* Mikoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F319FE7C2F2F0FDBF3E014C243A398E6 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A84132207CA9C8E8EB169841F6E8C3 /* SVRadialGradientLayer.m */; };
+		FCFD788DF1757F81973ED218BD2FBCFB /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA59231AD4D083887302A60DCB98206 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD85EF6A07A63F7C8EEB99E40A35C911 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F5F29921D983C4E720AB3647FF5623 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE8297249988DBDDDFCC8FFCFF0F3DFE /* CALayer+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B74CCAEFF7B3EF347B9755DF2AC67F /* CALayer+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1096B4E16DD245380CBF084BC6CF01A7 /* PBXContainerItemProxy */ = {
+		4A987442A0D3DCD10A4CF43322084349 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7340358811CFF21A8E58AE58DCDA4EE0;
+			remoteGlobalIDString = F5404E8F5F140116DAA58387F4BFB8BD;
 			remoteInfo = Mikoto;
+		};
+		6BEC3682612733D2C59D5FEE198C19E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2083A36050C6EE15575A412A1E2F7B;
+			remoteInfo = SVProgressHUD;
+		};
+		9B57B9ACEEEB11146FC23AC1057779E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2083A36050C6EE15575A412A1E2F7B;
+			remoteInfo = SVProgressHUD;
+		};
+		DBC2EEDE8F607AD0FB4C446058DB2356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1309A31514C8C275195B1DFC4B1BB0BD;
+			remoteInfo = Toast;
 		};
 		FD936AC3243FB2382198BF176BB8B3F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67B99B0498087EC2A1E070CB4E3AD763;
+			remoteGlobalIDString = 7881997CE99F72AA38FF4BAF7CDD6F27;
 			remoteInfo = "Pods-Mikoto_Example";
+		};
+		FFC3C9A1C56D64C5F1952F3CD9CE4FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1309A31514C8C275195B1DFC4B1BB0BD;
+			remoteInfo = Toast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A60BC0D00933678C51FF0C35FE72BE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Mikoto/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		027CF75432BB13A8D8204460446E3FC4 /* BaseHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseHelper.swift; sourceTree = "<group>"; };
+		078DCBFDA080CD8933515144F225CA58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07AE6FB21ED82E8A98AB411DF1745E22 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		08243061417421E3EDA90AF79D535529 /* Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
+		0BBEAC5B23F4A5B4E34FE6D52E080A01 /* FileManager+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FileManager+Ex.swift"; sourceTree = "<group>"; };
+		0EF92DC75795C950A5E14026D71AE7DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		127CCB2B3127EB54808E3E5C3162F0C3 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1370F5B0C475E58E4D239EEDC3125E3E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		1642B34EC29DD848A1B7B4095DC6E3F5 /* Mikoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Mikoto.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mikoto.xcconfig; sourceTree = "<group>"; };
+		1C515E2E5388D8F85308006DED7685EA /* UIColor+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Ex.swift"; sourceTree = "<group>"; };
 		1EBF7EE86515C14F4EA088E16A47BCE4 /* Pods-Mikoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Example-frameworks.sh"; sourceTree = "<group>"; };
-		21269566641B1D2F671C407B24347634 /* Mikoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mikoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE49AA28DCD0A7E4E9853839E43C9B9 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		22D144CD038884595EA0480E09CC8AF0 /* UIFont+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+Ex.swift"; sourceTree = "<group>"; };
+		23A36093676B56647EAE3E95B8D657D8 /* Mikoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mikoto-prefix.pch"; sourceTree = "<group>"; };
+		24A8BF7C6325AFF5C0E79FA63896B9D1 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2884060FF8CEF89130D709B9220C995F /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		2896D1C4D29E0ECD3CA409EEA288304E /* Mikoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mikoto-dummy.m"; sourceTree = "<group>"; };
 		2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2EE87FC5597C1E370CD7A2ADF6FC2FB0 /* CtmTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CtmTextView.swift; sourceTree = "<group>"; };
+		30B74CCAEFF7B3EF347B9755DF2AC67F /* CALayer+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+Ex.swift"; sourceTree = "<group>"; };
+		44F26086FB4D00F74E9104418444FEEE /* DateFormatter+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ex.swift"; sourceTree = "<group>"; };
+		47ADA35055B6CAFBBFA297C11D674859 /* UIImage+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Ex.swift"; sourceTree = "<group>"; };
+		4AF2DDF6682B6223EBC828C922793BF2 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD5F1D57D5BE3D4DD0CC8385AE24A7C /* Pods-Mikoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mikoto_Example.modulemap"; sourceTree = "<group>"; };
+		50F5F29921D983C4E720AB3647FF5623 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		5127DE37D8264876891D09418658A827 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5290F6E07448610808083F3FEBE6B962 /* String+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
+		54389EA5F43FD8BA4F43B7683D819425 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		5524AD74FE520D452FA75F9DCE457BF3 /* UIAlertController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Ex.swift"; sourceTree = "<group>"; };
 		58A9C839B0417C19FFB0AE22B6924E38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B6840DC7B4487C46A7CA79A7C8F0E51 /* Pods-Mikoto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mikoto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5BC11C147BB95D64C859800FA90919D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F71C2D93F64E2C5DCD7E5F745E82E0 /* Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base.swift; path = Mikoto/Classes/Core/Base.swift; sourceTree = "<group>"; };
+		6A655D0F66878F931EA5F053C87FFF6A /* UIViewController+Dealloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dealloc.h"; sourceTree = "<group>"; };
 		6AA0213BE36367F310C64C972E309137 /* Pods-Mikoto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		80610BF0D1B4F0A9B5932A1181B08176 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82D28E3164D525DD1B478FF88782FAE9 /* Mikoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mikoto-prefix.pch"; sourceTree = "<group>"; };
-		89885F6E15E39030C275EA708E2148AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		91923FCE7788317DA8D05A1EA203B81D /* Pods_Mikoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mikoto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B2C526F9E03389EEB73DDC1A712FC6F /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		6CFA2C742B94AD06FFE34089350532C5 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D1E085608E7894A1F56D9B497CAD55B /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
+		6E1D08F5DC8E852AEC5404892CF2161C /* Dictionary+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Ex.swift"; sourceTree = "<group>"; };
+		75F2D9DCC8A96E842753FE17CFCF4F0B /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		79F502ED8326EEFEF2F67C8CD7D28FB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4FB3A64EB4EB19FFD5DB6043F08414 /* Mikoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mikoto.framework; path = Mikoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7DB937271DEAE2FF8E8BE894242B18A5 /* UITableView+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Ex.swift"; sourceTree = "<group>"; };
+		84A4AC3C688167E70808591BC3149C1B /* BHBaseHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BHBaseHelper.h; sourceTree = "<group>"; };
+		89A78349AB867F416D4B1014BA2CA7FE /* BHBaseHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BHBaseHelper.m; sourceTree = "<group>"; };
+		89E527BFEEC6A924DFFA2BA965BA79A5 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		8BB1270CC4CE102412F895BD220AE5BD /* UIViewController+Dealloc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dealloc.m"; sourceTree = "<group>"; };
+		8CA59231AD4D083887302A60DCB98206 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		90622AAC3770D38C5C21625FBF16BE5A /* Mikoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mikoto.modulemap; sourceTree = "<group>"; };
+		913ECB32E42185A917B88DE3AED7F9D0 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = Mikoto/Classes/Core/HUD.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D5E7E3E88175571B94A24DB4DE145A /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		96DE295BE10563F01E4D06E6EFF674C1 /* Pods-Mikoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mikoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9CA324D6798685041E1BB78224ED2877 /* Mikoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mikoto-umbrella.h"; sourceTree = "<group>"; };
-		A59204FAF685962D7651ECDBDD6E02A1 /* Mikoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mikoto-dummy.m"; sourceTree = "<group>"; };
+		9828939E0E7CC4C50078592BA4881F40 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		9849E7128FAB9C014561D01B70FF9170 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		9B481E316AE87E229B074155C5670F5F /* DispatchQueue+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Ex.swift"; sourceTree = "<group>"; };
+		A5A31066D4CDA10B9D939633233F2565 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB6AC43E3A79C2DF986E62E97414F026 /* Pods_Mikoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mikoto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mikoto.xcconfig; sourceTree = "<group>"; };
+		B2BBDFAF160829C308726139B82F5EFA /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		B7C5A3B30C635FA778FCD94885960CD4 /* Mikoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mikoto-umbrella.h"; sourceTree = "<group>"; };
+		BDD1A0B11452C8ED3D58124A8F4310FD /* CtmTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CtmTextField.swift; sourceTree = "<group>"; };
+		BF99972FC93669B42AEA4AF47D9D01F1 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		C0BE14E92D930CCBBAB2208B4E25C328 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
+		C623269CD82B758F334A9A8D2DCF23AE /* Pods_Mikoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mikoto_Tests.framework; path = "Pods-Mikoto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B55F88231D6E27658377BE3331A845 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Mikoto/Classes/Core/Regex.swift; sourceTree = "<group>"; };
 		CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mikoto_Example-dummy.m"; sourceTree = "<group>"; };
 		CD199717700280FF6C5DDDDFCA18C69C /* Pods-Mikoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mikoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CD99738BF380293335AFAB2FE7F8999F /* Pods-Mikoto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Example-resources.sh"; sourceTree = "<group>"; };
-		DA01D17EC4BBBCC09AEAB68692C26A56 /* Mikoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Mikoto.podspec; sourceTree = "<group>"; };
+		D0A44E845B4221D902CC07B661F28F50 /* Pods_Mikoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mikoto_Example.framework; path = "Pods-Mikoto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EC2203CE0ABB67EF2321175B876CBD /* Namespace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Namespace.swift; path = Mikoto/Classes/Core/Namespace.swift; sourceTree = "<group>"; };
 		DA3C1F89CF31C65452D0948C3A3FC70E /* Pods-Mikoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mikoto_Tests.modulemap"; sourceTree = "<group>"; };
 		DBC20D9EB517008648AC461142751935 /* Pods-Mikoto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Tests-resources.sh"; sourceTree = "<group>"; };
 		E12AA48C610C84333A45979D79A7BF1F /* Pods-Mikoto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mikoto_Tests-dummy.m"; sourceTree = "<group>"; };
-		E2B2904E44C9E603B1CADF9C228A5808 /* Mikoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mikoto.modulemap; sourceTree = "<group>"; };
 		E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mikoto_Example-umbrella.h"; sourceTree = "<group>"; };
-		E50842D7A8565E395AE332062C1956A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4FBFE41BCA275E8AE357A1324448644 /* Array+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Ex.swift"; sourceTree = "<group>"; };
+		E75FFEC46073843D1F0E550DC0BFA5C6 /* UIView+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Ex.swift"; sourceTree = "<group>"; };
 		E7CC6C72B54BA8D1A8E1E8327A35C164 /* Pods-Mikoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mikoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		F16E6C6129DE3E05CD4ED091942C1356 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F17444FD6CA768D7653F94760904B8D9 /* Pods-Mikoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F2917886D1F370C4DA3D5E931E223040 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		F59BE67DD839DF54E548A0ABB46E8844 /* Pods-Mikoto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mikoto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F5ABDF48854D8CCEC8C296EEF6D8C534 /* UITableViewDataSource+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableViewDataSource+Ex.swift"; sourceTree = "<group>"; };
+		F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F91A2BAC0FED781BB1511BAD9EF43E85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A84132207CA9C8E8EB169841F6E8C3 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06083E04254B7F70BC7E17197EAC2E14 /* Frameworks */ = {
+		0ECEB8E0F3D24AB55C50D6C8302051BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F014C76D32D11E61EDF47EFB1C6B208 /* Foundation.framework in Frameworks */,
+				C062F553B9805FFE084AFA9C91DA61F8 /* Foundation.framework in Frameworks */,
+				1C5F15584315CBAE3BD5EBD63B17C057 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60D59DDCB85F976059E4DC7F71029906 /* Frameworks */ = {
+		150EE67B9D02649D0E99257F1264A43E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A1509BE40C2D8B3C3AAC8557C136C1 /* Foundation.framework in Frameworks */,
+				2819A03D0386FE53BBD8A071D4F2E19C /* Foundation.framework in Frameworks */,
+				3C7F2E8D6FD54D0708BFE668D5B9D3E7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80914EAA45EEBD6B28C1F5B87E62C96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4212A5BCABF3C57E4C034EC5F062DA3D /* Foundation.framework in Frameworks */,
+				22F45CB838EBEF04960FE50302D6E953 /* SVProgressHUD.framework in Frameworks */,
+				321CE454CDC644B539B466BFBAA63BA3 /* Toast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925ECC8A36F8E69F2AC3CE6504BE5187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C565997126C5C6E38DF746EFA72709E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,17 +254,87 @@
 		103D782A5264BE9156EF5E03EC1336C9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8A8236C971CF5E96D451083F98749BC /* Mikoto */,
+				EEBF59D7AD3402058C0A5790872FC2F2 /* Mikoto */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		144F6553585F2D8BB2C85CEC36E6BB77 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				79F502ED8326EEFEF2F67C8CD7D28FB3 /* Info.plist */,
+				F2917886D1F370C4DA3D5E931E223040 /* SVProgressHUD.modulemap */,
+				BF99972FC93669B42AEA4AF47D9D01F1 /* SVProgressHUD.xcconfig */,
+				127CCB2B3127EB54808E3E5C3162F0C3 /* SVProgressHUD-dummy.m */,
+				A5A31066D4CDA10B9D939633233F2565 /* SVProgressHUD-prefix.pch */,
+				95D5E7E3E88175571B94A24DB4DE145A /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		1D74FF47350E6071087CC247E17871D4 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				027CF75432BB13A8D8204460446E3FC4 /* BaseHelper.swift */,
+				84A4AC3C688167E70808591BC3149C1B /* BHBaseHelper.h */,
+				89A78349AB867F416D4B1014BA2CA7FE /* BHBaseHelper.m */,
+			);
+			name = helper;
+			path = Mikoto/Classes/Core/helper;
+			sourceTree = "<group>";
+		};
+		2693E5F4998A33B41476854709DB1F27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1370F5B0C475E58E4D239EEDC3125E3E /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4006381D11E7EF3F4123259F00B79FDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3E48353D71DED6775B3A64C45F0AC88 /* SVProgressHUD */,
+				53B97F017D1ECFB9E3CEE55256CF8270 /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4893E1A413B2AFEA7B6899BD815D2563 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */,
+				F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		53B97F017D1ECFB9E3CEE55256CF8270 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				6D1E085608E7894A1F56D9B497CAD55B /* Toast.h */,
+				9828939E0E7CC4C50078592BA4881F40 /* UIView+Toast.h */,
+				07AE6FB21ED82E8A98AB411DF1745E22 /* UIView+Toast.m */,
+				C4CD0366EE57871EC6C747F98AC9EA7E /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		56675BB16F65F87D8CF79E08ACD84538 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				64F71C2D93F64E2C5DCD7E5F745E82E0 /* Base.swift */,
+				913ECB32E42185A917B88DE3AED7F9D0 /* HUD.swift */,
+				D3EC2203CE0ABB67EF2321175B876CBD /* Namespace.swift */,
+				C8B55F88231D6E27658377BE3331A845 /* Regex.swift */,
+				772EA4E355EC5241A53F66901837FD6E /* Dealloc */,
+				95E93D79E7AADACD2476B4FBBEDD506F /* Extension */,
+				1D74FF47350E6071087CC247E17871D4 /* helper */,
+				88C46F3331329FC1A6FAC001B3D954E8 /* Subclass */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		65E5C354E8944EDCC4504D8B68EEA49F /* Targets Support Files */ = {
@@ -127,15 +346,69 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		692159A9B66E4F71C15635A1E5A46DB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				078DCBFDA080CD8933515144F225CA58 /* LICENSE */,
+				1642B34EC29DD848A1B7B4095DC6E3F5 /* Mikoto.podspec */,
+				F16E6C6129DE3E05CD4ED091942C1356 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		772EA4E355EC5241A53F66901837FD6E /* Dealloc */ = {
+			isa = PBXGroup;
+			children = (
+				6A655D0F66878F931EA5F053C87FFF6A /* UIViewController+Dealloc.h */,
+				8BB1270CC4CE102412F895BD220AE5BD /* UIViewController+Dealloc.m */,
+			);
+			name = Dealloc;
+			path = Mikoto/Classes/Core/Dealloc;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				103D782A5264BE9156EF5E03EC1336C9 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BDE8FA88CCC50E211333D78CB47158B1 /* Products */,
+				9EF9FDBC0B987CF8E04B1ADAD2AE6CD7 /* Frameworks */,
+				4006381D11E7EF3F4123259F00B79FDA /* Pods */,
+				DDAEB5E82DD6276B604FDAA33218DEC7 /* Products */,
 				65E5C354E8944EDCC4504D8B68EEA49F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		88C46F3331329FC1A6FAC001B3D954E8 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				BDD1A0B11452C8ED3D58124A8F4310FD /* CtmTextField.swift */,
+				2EE87FC5597C1E370CD7A2ADF6FC2FB0 /* CtmTextView.swift */,
+			);
+			name = Subclass;
+			path = Mikoto/Classes/Core/Subclass;
+			sourceTree = "<group>";
+		};
+		95E93D79E7AADACD2476B4FBBEDD506F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E4FBFE41BCA275E8AE357A1324448644 /* Array+Ex.swift */,
+				30B74CCAEFF7B3EF347B9755DF2AC67F /* CALayer+Ex.swift */,
+				44F26086FB4D00F74E9104418444FEEE /* DateFormatter+Ex.swift */,
+				6E1D08F5DC8E852AEC5404892CF2161C /* Dictionary+Ex.swift */,
+				9B481E316AE87E229B074155C5670F5F /* DispatchQueue+Ex.swift */,
+				08243061417421E3EDA90AF79D535529 /* Ext.swift */,
+				0BBEAC5B23F4A5B4E34FE6D52E080A01 /* FileManager+Ex.swift */,
+				5290F6E07448610808083F3FEBE6B962 /* String+Ex.swift */,
+				5524AD74FE520D452FA75F9DCE457BF3 /* UIAlertController+Ex.swift */,
+				1C515E2E5388D8F85308006DED7685EA /* UIColor+Ex.swift */,
+				22D144CD038884595EA0480E09CC8AF0 /* UIFont+Ex.swift */,
+				47ADA35055B6CAFBBFA297C11D674859 /* UIImage+Ex.swift */,
+				7DB937271DEAE2FF8E8BE894242B18A5 /* UITableView+Ex.swift */,
+				F5ABDF48854D8CCEC8C296EEF6D8C534 /* UITableViewDataSource+Ex.swift */,
+				E75FFEC46073843D1F0E550DC0BFA5C6 /* UIView+Ex.swift */,
+			);
+			name = Extension;
+			path = Mikoto/Classes/Core/Extension;
 			sourceTree = "<group>";
 		};
 		9871982E0D4665FC03D20056CB1BD888 /* Pods-Mikoto_Tests */ = {
@@ -156,6 +429,16 @@
 			path = "Target Support Files/Pods-Mikoto_Tests";
 			sourceTree = "<group>";
 		};
+		9EF9FDBC0B987CF8E04B1ADAD2AE6CD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A8BF7C6325AFF5C0E79FA63896B9D1 /* SVProgressHUD.framework */,
+				5127DE37D8264876891D09418658A827 /* Toast.framework */,
+				4893E1A413B2AFEA7B6899BD815D2563 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABA73FDD0A9030A077CBB3A7A95FB999 /* Pods-Mikoto_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,54 +457,70 @@
 			path = "Target Support Files/Pods-Mikoto_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C3E48353D71DED6775B3A64C45F0AC88 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				89E527BFEEC6A924DFFA2BA965BA79A5 /* SVIndefiniteAnimatedView.h */,
+				1EE49AA28DCD0A7E4E9853839E43C9B9 /* SVIndefiniteAnimatedView.m */,
+				6B2C526F9E03389EEB73DDC1A712FC6F /* SVProgressAnimatedView.h */,
+				9849E7128FAB9C014561D01B70FF9170 /* SVProgressAnimatedView.m */,
+				50F5F29921D983C4E720AB3647FF5623 /* SVProgressHUD.h */,
+				2884060FF8CEF89130D709B9220C995F /* SVProgressHUD.m */,
+				8CA59231AD4D083887302A60DCB98206 /* SVRadialGradientLayer.h */,
+				F9A84132207CA9C8E8EB169841F6E8C3 /* SVRadialGradientLayer.m */,
+				2693E5F4998A33B41476854709DB1F27 /* Resources */,
+				144F6553585F2D8BB2C85CEC36E6BB77 /* Support Files */,
 			);
-			name = Frameworks;
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		BDE8FA88CCC50E211333D78CB47158B1 /* Products */ = {
+		C4CD0366EE57871EC6C747F98AC9EA7E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				21269566641B1D2F671C407B24347634 /* Mikoto.framework */,
-				91923FCE7788317DA8D05A1EA203B81D /* Pods_Mikoto_Example.framework */,
-				AB6AC43E3A79C2DF986E62E97414F026 /* Pods_Mikoto_Tests.framework */,
+				F91A2BAC0FED781BB1511BAD9EF43E85 /* Info.plist */,
+				C0BE14E92D930CCBBAB2208B4E25C328 /* Toast.modulemap */,
+				EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */,
+				54389EA5F43FD8BA4F43B7683D819425 /* Toast-dummy.m */,
+				B2BBDFAF160829C308726139B82F5EFA /* Toast-prefix.pch */,
+				75F2D9DCC8A96E842753FE17CFCF4F0B /* Toast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		DDAEB5E82DD6276B604FDAA33218DEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A4FB3A64EB4EB19FFD5DB6043F08414 /* Mikoto.framework */,
+				D0A44E845B4221D902CC07B661F28F50 /* Pods_Mikoto_Example.framework */,
+				C623269CD82B758F334A9A8D2DCF23AE /* Pods_Mikoto_Tests.framework */,
+				4AF2DDF6682B6223EBC828C922793BF2 /* SVProgressHUD.framework */,
+				6CFA2C742B94AD06FFE34089350532C5 /* Toast.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E8A8236C971CF5E96D451083F98749BC /* Mikoto */ = {
+		EEBF59D7AD3402058C0A5790872FC2F2 /* Mikoto */ = {
 			isa = PBXGroup;
 			children = (
-				01A60BC0D00933678C51FF0C35FE72BE /* ReplaceMe.swift */,
-				F75245E87E10EA546F749BC7C3AFD17D /* Pod */,
-				FB06C582F1E1CDA345FD335E987F0E95 /* Support Files */,
+				56675BB16F65F87D8CF79E08ACD84538 /* Core */,
+				692159A9B66E4F71C15635A1E5A46DB4 /* Pod */,
+				FD04F382FF5969730F397FDD5310FF9A /* Support Files */,
 			);
 			name = Mikoto;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		F75245E87E10EA546F749BC7C3AFD17D /* Pod */ = {
+		FD04F382FF5969730F397FDD5310FF9A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				89885F6E15E39030C275EA708E2148AD /* LICENSE */,
-				DA01D17EC4BBBCC09AEAB68692C26A56 /* Mikoto.podspec */,
-				E50842D7A8565E395AE332062C1956A7 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FB06C582F1E1CDA345FD335E987F0E95 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80610BF0D1B4F0A9B5932A1181B08176 /* Info.plist */,
-				E2B2904E44C9E603B1CADF9C228A5808 /* Mikoto.modulemap */,
-				AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */,
-				A59204FAF685962D7651ECDBDD6E02A1 /* Mikoto-dummy.m */,
-				82D28E3164D525DD1B478FF88782FAE9 /* Mikoto-prefix.pch */,
-				9CA324D6798685041E1BB78224ED2877 /* Mikoto-umbrella.h */,
+				0EF92DC75795C950A5E14026D71AE7DD /* Info.plist */,
+				90622AAC3770D38C5C21625FBF16BE5A /* Mikoto.modulemap */,
+				19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */,
+				2896D1C4D29E0ECD3CA409EEA288304E /* Mikoto-dummy.m */,
+				23A36093676B56647EAE3E95B8D657D8 /* Mikoto-prefix.pch */,
+				B7C5A3B30C635FA778FCD94885960CD4 /* Mikoto-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Mikoto";
@@ -230,6 +529,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		07F1792A3F2729F5750F689FED9C7C87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC607CC76BEF2BD0607B701E898EE24A /* SVIndefiniteAnimatedView.h in Headers */,
+				AE913D4346BDBFC52E0CAF90A47F04FC /* SVProgressAnimatedView.h in Headers */,
+				05318D7E4E2FE4382CAE51AAA6388A5B /* SVProgressHUD-umbrella.h in Headers */,
+				FD85EF6A07A63F7C8EEB99E40A35C911 /* SVProgressHUD.h in Headers */,
+				FCFD788DF1757F81973ED218BD2FBCFB /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09DD7567F5455FFABA4B30C4B9686187 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,41 +549,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B3BC2DA8BC57B6B7202942E6E60DE53 /* Headers */ = {
+		52190692D9A413322B0D84AF5092AB5C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				253E23B7F1721A7C9C059770DE833DBA /* Mikoto-umbrella.h in Headers */,
+				88448B1F8ED24BE1B3C7B2A33C28DF6A /* Pods-Mikoto_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		747F2B8DCDB41BB945EC447103E7F75D /* Headers */ = {
+		9CEB0CF4ECFDC896EE375D82DF42450E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C4C3256FF3DE2243B4DB25CD51E71D7 /* Pods-Mikoto_Example-umbrella.h in Headers */,
+				2CB241E1936728F67909929D91A7F8AB /* Toast-umbrella.h in Headers */,
+				A007734DC575CAE418C724CE8A56B558 /* Toast.h in Headers */,
+				968CC2D16BE5D237B62A160BCDFCBFCF /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E17C829C51AE74680EF1EFC5FB309CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A589775D9A672893CBBBAFD8CC849D40 /* BHBaseHelper.h in Headers */,
+				ED40894E95109A839A996B1FF59E2A07 /* Mikoto-umbrella.h in Headers */,
+				C66DC9E72501B8677222DCE55E766E72 /* UIViewController+Dealloc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		67B99B0498087EC2A1E070CB4E3AD763 /* Pods-Mikoto_Example */ = {
+		1309A31514C8C275195B1DFC4B1BB0BD /* Toast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F2C2730214273461E64F61063DE2F54 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */;
+			buildConfigurationList = 14AEB3359A0370B854AD7D9443B7B918 /* Build configuration list for PBXNativeTarget "Toast" */;
 			buildPhases = (
-				4FE2846C77873C2588AF9D59245F552A /* Sources */,
-				60D59DDCB85F976059E4DC7F71029906 /* Frameworks */,
-				747F2B8DCDB41BB945EC447103E7F75D /* Headers */,
+				91C68C7DE5D751B4EDE45AF12D60DD1F /* Sources */,
+				150EE67B9D02649D0E99257F1264A43E /* Frameworks */,
+				9CEB0CF4ECFDC896EE375D82DF42450E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5DB6DF1EC2DE39FA31595E5A20BFAC2C /* PBXTargetDependency */,
 			);
-			name = "Pods-Mikoto_Example";
-			productName = "Pods-Mikoto_Example";
-			productReference = 91923FCE7788317DA8D05A1EA203B81D /* Pods_Mikoto_Example.framework */;
+			name = Toast;
+			productName = Toast;
+			productReference = 6CFA2C742B94AD06FFE34089350532C5 /* Toast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6C1D61DC01690FFE9EC09B34E8FB2727 /* Pods-Mikoto_Tests */ = {
@@ -290,24 +612,64 @@
 			);
 			name = "Pods-Mikoto_Tests";
 			productName = "Pods-Mikoto_Tests";
-			productReference = AB6AC43E3A79C2DF986E62E97414F026 /* Pods_Mikoto_Tests.framework */;
+			productReference = C623269CD82B758F334A9A8D2DCF23AE /* Pods_Mikoto_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7340358811CFF21A8E58AE58DCDA4EE0 /* Mikoto */ = {
+		7881997CE99F72AA38FF4BAF7CDD6F27 /* Pods-Mikoto_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1110C5977C2CCF69094026E76E6BE41B /* Build configuration list for PBXNativeTarget "Mikoto" */;
+			buildConfigurationList = AC758F53EE040071B915C31809B91138 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */;
 			buildPhases = (
-				086786E40DB63D3548FE90A6735AB123 /* Sources */,
-				06083E04254B7F70BC7E17197EAC2E14 /* Frameworks */,
-				0B3BC2DA8BC57B6B7202942E6E60DE53 /* Headers */,
+				0581F8A97505F7735B4246AA3C8478AC /* Sources */,
+				925ECC8A36F8E69F2AC3CE6504BE5187 /* Frameworks */,
+				52190692D9A413322B0D84AF5092AB5C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED88ECDEB46053AFB1E0D63377B1315 /* PBXTargetDependency */,
+				4D0474060D213F82D4667D39B7B2F8CB /* PBXTargetDependency */,
+				388082ED047C73F9E2BDA5D8B1770343 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mikoto_Example";
+			productName = "Pods-Mikoto_Example";
+			productReference = D0A44E845B4221D902CC07B661F28F50 /* Pods_Mikoto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D34D65E02520DF44846FB50A9CC863E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				F4AB86DBBB871B3D4E57423228715AF3 /* Sources */,
+				0ECEB8E0F3D24AB55C50D6C8302051BA /* Frameworks */,
+				07F1792A3F2729F5750F689FED9C7C87 /* Headers */,
+				F5D50828BBE5D3BA735018A14D39E1AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 4AF2DDF6682B6223EBC828C922793BF2 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5404E8F5F140116DAA58387F4BFB8BD /* Mikoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F989C93B3626E2C669C116BC2AD9BB9 /* Build configuration list for PBXNativeTarget "Mikoto" */;
+			buildPhases = (
+				FBFA90FCD3E83F225B0F6551D6A8E53F /* Sources */,
+				80914EAA45EEBD6B28C1F5B87E62C96C /* Frameworks */,
+				9E17C829C51AE74680EF1EFC5FB309CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				431F4AFFA153527A5B4E58435EAFDBA2 /* PBXTargetDependency */,
+				DF91C195F12FD2B9EF79C6173C2DBE2E /* PBXTargetDependency */,
+			);
 			name = Mikoto;
 			productName = Mikoto;
-			productReference = 21269566641B1D2F671C407B24347634 /* Mikoto.framework */;
+			productReference = 7A4FB3A64EB4EB19FFD5DB6043F08414 /* Mikoto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,32 +689,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BDE8FA88CCC50E211333D78CB47158B1 /* Products */;
+			productRefGroup = DDAEB5E82DD6276B604FDAA33218DEC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7340358811CFF21A8E58AE58DCDA4EE0 /* Mikoto */,
-				67B99B0498087EC2A1E070CB4E3AD763 /* Pods-Mikoto_Example */,
+				F5404E8F5F140116DAA58387F4BFB8BD /* Mikoto */,
+				7881997CE99F72AA38FF4BAF7CDD6F27 /* Pods-Mikoto_Example */,
 				6C1D61DC01690FFE9EC09B34E8FB2727 /* Pods-Mikoto_Tests */,
+				8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */,
+				1309A31514C8C275195B1DFC4B1BB0BD /* Toast */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		086786E40DB63D3548FE90A6735AB123 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		F5D50828BBE5D3BA735018A14D39E1AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96315CAB65CC06A916A64DB7A4A1D2A6 /* Mikoto-dummy.m in Sources */,
-				D55EF9296B4075701456B6E3AB847673 /* ReplaceMe.swift in Sources */,
+				A5D33E1373D189ED1C2C47A03A123788 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FE2846C77873C2588AF9D59245F552A /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0581F8A97505F7735B4246AA3C8478AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D68D38586FBDDDB0A1D7DD789B2016 /* Pods-Mikoto_Example-dummy.m in Sources */,
+				5ADCB9094B17EA33D03CE02528FCEB9E /* Pods-Mikoto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C68C7DE5D751B4EDE45AF12D60DD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F5A1D349660EC529303B61AFEBEE70 /* Toast-dummy.m in Sources */,
+				862C183EFF7965B1FE522BFFFBF753F0 /* UIView+Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,60 +739,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4AB86DBBB871B3D4E57423228715AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346115DFB01E337A52A9D9C8B05E720F /* SVIndefiniteAnimatedView.m in Sources */,
+				87B583B216299F4CD77DA6361B86781E /* SVProgressAnimatedView.m in Sources */,
+				29E64E797336E6F134D3ADA7AAF57CCF /* SVProgressHUD-dummy.m in Sources */,
+				275DE5FC31174B72004383E4C53354FE /* SVProgressHUD.m in Sources */,
+				F319FE7C2F2F0FDBF3E014C243A398E6 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFA90FCD3E83F225B0F6551D6A8E53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C262429A9C72CC673C9CC88D230AD2 /* Array+Ex.swift in Sources */,
+				A9A8AE48507BBCD040CC453128B501C1 /* Base.swift in Sources */,
+				678672462A9B8E8AA94D5E4950C289B6 /* BaseHelper.swift in Sources */,
+				6FCAF7C445C06DE4C64FC95BA79CD76D /* BHBaseHelper.m in Sources */,
+				FE8297249988DBDDDFCC8FFCFF0F3DFE /* CALayer+Ex.swift in Sources */,
+				3B8870CEB535A4FF98737A7B23176681 /* CtmTextField.swift in Sources */,
+				758BD95B77ED9E32CF18A3B858E414EC /* CtmTextView.swift in Sources */,
+				059B2940C3933070CB24AD0672609F87 /* DateFormatter+Ex.swift in Sources */,
+				5F24D01EB539B1220E8A11CD13567E86 /* Dictionary+Ex.swift in Sources */,
+				4121F7013374930AD8519E297BBE041F /* DispatchQueue+Ex.swift in Sources */,
+				9E626A45FF11158C8B785975D36C5C39 /* Ext.swift in Sources */,
+				A80018DA0652902F7BCDFE1204FAE0E0 /* FileManager+Ex.swift in Sources */,
+				775A1121F97A92D18EC56E82C61355EF /* HUD.swift in Sources */,
+				825FC5C34D4B6DC4978AFB498579FFB9 /* Mikoto-dummy.m in Sources */,
+				8D3DE186D0E3FE0B93312CA457AE617B /* Namespace.swift in Sources */,
+				0E083530B4332342AA99343574D1AE1E /* Regex.swift in Sources */,
+				8CD5D4AB3BDDFC66AAD524D0EF2734D1 /* String+Ex.swift in Sources */,
+				7AA0F16093D5156694A6672A97997B3E /* UIAlertController+Ex.swift in Sources */,
+				AA6035D1F6292249EC856E0E05363C28 /* UIColor+Ex.swift in Sources */,
+				5FB488697B409668D549CB7E81398656 /* UIFont+Ex.swift in Sources */,
+				16AD915CB984F6D23B60A5C5CFBA059D /* UIImage+Ex.swift in Sources */,
+				DD70FC4E5C101D3037CFE877ED91DBB0 /* UITableView+Ex.swift in Sources */,
+				40C95C103719C9BA0AC60037B71408C7 /* UITableViewDataSource+Ex.swift in Sources */,
+				96237D0ECA87848807617157016EA675 /* UIView+Ex.swift in Sources */,
+				CBF49C5FC1A2F03014F697EEDBDDE5D2 /* UIViewController+Dealloc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		173B2B8DBB1EB5D502A179E685EF4F76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Mikoto_Example";
-			target = 67B99B0498087EC2A1E070CB4E3AD763 /* Pods-Mikoto_Example */;
+			target = 7881997CE99F72AA38FF4BAF7CDD6F27 /* Pods-Mikoto_Example */;
 			targetProxy = FD936AC3243FB2382198BF176BB8B3F7 /* PBXContainerItemProxy */;
 		};
-		5DB6DF1EC2DE39FA31595E5A20BFAC2C /* PBXTargetDependency */ = {
+		388082ED047C73F9E2BDA5D8B1770343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = 1309A31514C8C275195B1DFC4B1BB0BD /* Toast */;
+			targetProxy = FFC3C9A1C56D64C5F1952F3CD9CE4FC9 /* PBXContainerItemProxy */;
+		};
+		431F4AFFA153527A5B4E58435EAFDBA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */;
+			targetProxy = 6BEC3682612733D2C59D5FEE198C19E2 /* PBXContainerItemProxy */;
+		};
+		4D0474060D213F82D4667D39B7B2F8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */;
+			targetProxy = 9B57B9ACEEEB11146FC23AC1057779E1 /* PBXContainerItemProxy */;
+		};
+		8ED88ECDEB46053AFB1E0D63377B1315 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mikoto;
-			target = 7340358811CFF21A8E58AE58DCDA4EE0 /* Mikoto */;
-			targetProxy = 1096B4E16DD245380CBF084BC6CF01A7 /* PBXContainerItemProxy */;
+			target = F5404E8F5F140116DAA58387F4BFB8BD /* Mikoto */;
+			targetProxy = 4A987442A0D3DCD10A4CF43322084349 /* PBXContainerItemProxy */;
+		};
+		DF91C195F12FD2B9EF79C6173C2DBE2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = 1309A31514C8C275195B1DFC4B1BB0BD /* Toast */;
+			targetProxy = DBC2EEDE8F607AD0FB4C446058DB2356 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		070658A9233D93E2B2C4E2390E8590C5 /* Debug */ = {
+		0F3BEE5ED07C73E9258FF2CE8AE7368A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2EC6EC11DCE7A85C162B2682D954C43C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */;
+			baseConfigurationReference = 2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -431,7 +841,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
@@ -442,82 +852,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C3A52455E2F8B138030379EB12F901E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF99972FC93669B42AEA4AF47D9D01F1 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5C2A6161ED12B2DABBB18499E820F36E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
-				PRODUCT_MODULE_NAME = Mikoto;
-				PRODUCT_NAME = Mikoto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		802B933368CA92C0A0BD22ED2832DFF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F17444FD6CA768D7653F94760904B8D9 /* Pods-Mikoto_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -570,7 +944,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -580,7 +954,269 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		2058CFCA726B47786A2CC060DD2C2DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5056B8E8C2CE027BC89CCA22210AFA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17444FD6CA768D7653F94760904B8D9 /* Pods-Mikoto_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79E7FBF68D4BD5367E338A55D2BAA367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF99972FC93669B42AEA4AF47D9D01F1 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1CD9B5B81342CB96C0756E7AF88AF9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
+				PRODUCT_MODULE_NAME = Mikoto;
+				PRODUCT_NAME = Mikoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BADB8E5B412CA3A174F0541C3972236A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD0DB99B3DA908F6A81A3785CE11C272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCB2E872B14EEB1A09FC8D1C0BB9E334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F31A1AB1FAFC88E64775205AEC49ACB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
+				PRODUCT_MODULE_NAME = Mikoto;
+				PRODUCT_NAME = Mikoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -630,7 +1266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -638,81 +1274,23 @@
 			};
 			name = Release;
 		};
-		CE847D689F201F8212288D89D69C90DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F08654A5C6FEDB9992BF5571F4A0F32E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
-				PRODUCT_MODULE_NAME = Mikoto;
-				PRODUCT_NAME = Mikoto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1110C5977C2CCF69094026E76E6BE41B /* Build configuration list for PBXNativeTarget "Mikoto" */ = {
+		14AEB3359A0370B854AD7D9443B7B918 /* Build configuration list for PBXNativeTarget "Toast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F08654A5C6FEDB9992BF5571F4A0F32E /* Debug */,
-				5C2A6161ED12B2DABBB18499E820F36E /* Release */,
+				CCB2E872B14EEB1A09FC8D1C0BB9E334 /* Debug */,
+				BADB8E5B412CA3A174F0541C3972236A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F989C93B3626E2C669C116BC2AD9BB9 /* Build configuration list for PBXNativeTarget "Mikoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CD9B5B81342CB96C0756E7AF88AF9C /* Debug */,
+				F31A1AB1FAFC88E64775205AEC49ACB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,17 +1298,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F2C2730214273461E64F61063DE2F54 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */ = {
+		6D34D65E02520DF44846FB50A9CC863E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EC6EC11DCE7A85C162B2682D954C43C /* Debug */,
-				CE847D689F201F8212288D89D69C90DA /* Release */,
+				1C3A52455E2F8B138030379EB12F901E /* Debug */,
+				79E7FBF68D4BD5367E338A55D2BAA367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -738,8 +1316,17 @@
 		AB08A5F9EDC9EE15392BA2DDC4EC2BCF /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				070658A9233D93E2B2C4E2390E8590C5 /* Debug */,
-				802B933368CA92C0A0BD22ED2832DFF2 /* Release */,
+				2058CFCA726B47786A2CC060DD2C2DFC /* Debug */,
+				5056B8E8C2CE027BC89CCA22210AFA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC758F53EE040071B915C31809B91138 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0DB99B3DA908F6A81A3785CE11C272 /* Debug */,
+				0F3BEE5ED07C73E9258FF2CE8AE7368A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

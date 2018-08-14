@@ -1,22 +1,36 @@
 {
   "name": "Mikoto",
   "version": "0.1.0",
-  "summary": "A short description of Mikoto.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/184453324@qq.com/Mikoto",
+  "summary": "Mikoto: some base components.",
+  "description": "这是一个用于iOS开发的常用基础组件库。",
+  "homepage": "https://github.com/gyzerocc/Mikoto",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "184453324@qq.com": "184453324@qq.com"
+    "gyzerocc": "184453324@qq.com"
   },
   "source": {
-    "git": "https://github.com/184453324@qq.com/Mikoto.git",
+    "git": "https://github.com/gyzerocc/Mikoto.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Mikoto/Classes/**/*"
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "dependencies": {
+        "SVProgressHUD": [
+          "~> 2.2.5"
+        ],
+        "Toast": [
+          "~> 4.0.0"
+        ]
+      },
+      "source_files": "Mikoto/Classes/Core/**/*"
+    }
+  ]
 }

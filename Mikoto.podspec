@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '这是一个用于iOS开发的常用基础组件库。'
+  s.description      = '这是一个用于iOS开发的常用基础组件库。包含常用的全局变量、拓展、正则表达式验证、提示等等。'
 
-  s.homepage         = 'https://github.com/184453324@qq.com/Mikoto'
+  s.homepage         = 'https://github.com/gyzerocc/Mikoto'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gyzerocc' => '184453324@qq.com' }
-  s.source           = { :git => 'https://github.com/184453324@qq.com/Mikoto.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gyzerocc/Mikoto.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -1,16 +1,29 @@
 PODS:
-  - Mikoto (0.1.0)
+  - Mikoto (0.1.0):
+    - Mikoto/Core (= 0.1.0)
+  - Mikoto/Core (0.1.0):
+    - SVProgressHUD (~> 2.2.5)
+    - Toast (~> 4.0.0)
+  - SVProgressHUD (2.2.5)
+  - Toast (4.0.0)
 
 DEPENDENCIES:
   - Mikoto (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SVProgressHUD
+    - Toast
 
 EXTERNAL SOURCES:
   Mikoto:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mikoto: cb41f575061622a22d2bbf52bca19bd8c55d4d63
+  Mikoto: c6ac7abef87f07285fc02ccf21e023fa813ae611
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 84ee80bf37e06de67d93f0a9d856ad6d8ffefc65
+PODFILE CHECKSUM: 5e425f75c96ca3e41169f457ad3fa9ef7633661f
 
 COCOAPODS: 1.5.3

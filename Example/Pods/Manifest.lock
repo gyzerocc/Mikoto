@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mikoto: c6ac7abef87f07285fc02ccf21e023fa813ae611
+  Mikoto: 5110a9a650d93fea13066fcf607691b4e37ed5a2
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 

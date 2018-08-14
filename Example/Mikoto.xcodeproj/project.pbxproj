@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02DA88552122D9DE00B368A4 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 02DA88532122D9DD00B368A4 /* Appfile */; };
+		02DA88562122D9DE00B368A4 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 02DA88542122D9DD00B368A4 /* Fastfile */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02DA88532122D9DD00B368A4 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		02DA88542122D9DD00B368A4 /* Fastfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; indentWidth = 2; path = Fastfile; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
 		33B9CD905EAD17ADB2A45CCE /* Pods-Mikoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mikoto_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4042689FD9DDFCF143D7DFE3 /* Pods-Mikoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mikoto_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		435438C5184068B078C9BC21 /* Mikoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Mikoto.podspec; path = ../Mikoto.podspec; sourceTree = "<group>"; };
@@ -69,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02DA88522122D9DD00B368A4 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				02DA88532122D9DD00B368A4 /* Appfile */,
+				02DA88542122D9DD00B368A4 /* Fastfile */,
+			);
+			name = fastlane;
+			path = ../fastlane;
+			sourceTree = "<group>";
+		};
 		062C6FE1109C798878978E4F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +97,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				02DA88522122D9DD00B368A4 /* fastlane */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Mikoto */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -247,6 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DA88562122D9DE00B368A4 /* Fastfile in Resources */,
+				02DA88552122D9DE00B368A4 /* Appfile in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,

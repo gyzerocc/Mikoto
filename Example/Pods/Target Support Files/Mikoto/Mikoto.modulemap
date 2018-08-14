@@ -1,0 +1,6 @@
+framework module Mikoto {
+  umbrella header "Mikoto-umbrella.h"
+
+  export *
+  module * { export * }
+}

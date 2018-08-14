@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F014C76D32D11E61EDF47EFB1C6B208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		253E23B7F1721A7C9C059770DE833DBA /* Mikoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA324D6798685041E1BB78224ED2877 /* Mikoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B9EDA3EA61735B2BCDA65977969454 /* Pods-Mikoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59BE67DD839DF54E548A0ABB46E8844 /* Pods-Mikoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C4C3256FF3DE2243B4DB25CD51E71D7 /* Pods-Mikoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D68D38586FBDDDB0A1D7DD789B2016 /* Pods-Mikoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */; };
+		96315CAB65CC06A916A64DB7A4A1D2A6 /* Mikoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A59204FAF685962D7651ECDBDD6E02A1 /* Mikoto-dummy.m */; };
+		D2F7680D86E0EF2C6C889B9CC4AE1758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D55EF9296B4075701456B6E3AB847673 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A60BC0D00933678C51FF0C35FE72BE /* ReplaceMe.swift */; };
+		DB987D7D4C731F29D7F9DE10BA6C71E0 /* Pods-Mikoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E12AA48C610C84333A45979D79A7BF1F /* Pods-Mikoto_Tests-dummy.m */; };
+		F8A1509BE40C2D8B3C3AAC8557C136C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1096B4E16DD245380CBF084BC6CF01A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7340358811CFF21A8E58AE58DCDA4EE0;
+			remoteInfo = Mikoto;
+		};
+		FD936AC3243FB2382198BF176BB8B3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B99B0498087EC2A1E070CB4E3AD763;
+			remoteInfo = "Pods-Mikoto_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A60BC0D00933678C51FF0C35FE72BE /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Mikoto/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1EBF7EE86515C14F4EA088E16A47BCE4 /* Pods-Mikoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		21269566641B1D2F671C407B24347634 /* Mikoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mikoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4DD5F1D57D5BE3D4DD0CC8385AE24A7C /* Pods-Mikoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mikoto_Example.modulemap"; sourceTree = "<group>"; };
+		58A9C839B0417C19FFB0AE22B6924E38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B6840DC7B4487C46A7CA79A7C8F0E51 /* Pods-Mikoto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mikoto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BC11C147BB95D64C859800FA90919D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA0213BE36367F310C64C972E309137 /* Pods-Mikoto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		80610BF0D1B4F0A9B5932A1181B08176 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D28E3164D525DD1B478FF88782FAE9 /* Mikoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mikoto-prefix.pch"; sourceTree = "<group>"; };
+		89885F6E15E39030C275EA708E2148AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		91923FCE7788317DA8D05A1EA203B81D /* Pods_Mikoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mikoto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DE295BE10563F01E4D06E6EFF674C1 /* Pods-Mikoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mikoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CA324D6798685041E1BB78224ED2877 /* Mikoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mikoto-umbrella.h"; sourceTree = "<group>"; };
+		A59204FAF685962D7651ECDBDD6E02A1 /* Mikoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mikoto-dummy.m"; sourceTree = "<group>"; };
+		A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB6AC43E3A79C2DF986E62E97414F026 /* Pods_Mikoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mikoto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mikoto.xcconfig; sourceTree = "<group>"; };
+		CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mikoto_Example-dummy.m"; sourceTree = "<group>"; };
+		CD199717700280FF6C5DDDDFCA18C69C /* Pods-Mikoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mikoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD99738BF380293335AFAB2FE7F8999F /* Pods-Mikoto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Example-resources.sh"; sourceTree = "<group>"; };
+		DA01D17EC4BBBCC09AEAB68692C26A56 /* Mikoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Mikoto.podspec; sourceTree = "<group>"; };
+		DA3C1F89CF31C65452D0948C3A3FC70E /* Pods-Mikoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mikoto_Tests.modulemap"; sourceTree = "<group>"; };
+		DBC20D9EB517008648AC461142751935 /* Pods-Mikoto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mikoto_Tests-resources.sh"; sourceTree = "<group>"; };
+		E12AA48C610C84333A45979D79A7BF1F /* Pods-Mikoto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mikoto_Tests-dummy.m"; sourceTree = "<group>"; };
+		E2B2904E44C9E603B1CADF9C228A5808 /* Mikoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mikoto.modulemap; sourceTree = "<group>"; };
+		E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mikoto_Example-umbrella.h"; sourceTree = "<group>"; };
+		E50842D7A8565E395AE332062C1956A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E7CC6C72B54BA8D1A8E1E8327A35C164 /* Pods-Mikoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mikoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F17444FD6CA768D7653F94760904B8D9 /* Pods-Mikoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mikoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F59BE67DD839DF54E548A0ABB46E8844 /* Pods-Mikoto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mikoto_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06083E04254B7F70BC7E17197EAC2E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F014C76D32D11E61EDF47EFB1C6B208 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D59DDCB85F976059E4DC7F71029906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A1509BE40C2D8B3C3AAC8557C136C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC993FF618A69691BEE3A13FCC7427B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F7680D86E0EF2C6C889B9CC4AE1758 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103D782A5264BE9156EF5E03EC1336C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8A8236C971CF5E96D451083F98749BC /* Mikoto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65E5C354E8944EDCC4504D8B68EEA49F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA73FDD0A9030A077CBB3A7A95FB999 /* Pods-Mikoto_Example */,
+				9871982E0D4665FC03D20056CB1BD888 /* Pods-Mikoto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				103D782A5264BE9156EF5E03EC1336C9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BDE8FA88CCC50E211333D78CB47158B1 /* Products */,
+				65E5C354E8944EDCC4504D8B68EEA49F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9871982E0D4665FC03D20056CB1BD888 /* Pods-Mikoto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC11C147BB95D64C859800FA90919D4 /* Info.plist */,
+				DA3C1F89CF31C65452D0948C3A3FC70E /* Pods-Mikoto_Tests.modulemap */,
+				5B6840DC7B4487C46A7CA79A7C8F0E51 /* Pods-Mikoto_Tests-acknowledgements.markdown */,
+				E7CC6C72B54BA8D1A8E1E8327A35C164 /* Pods-Mikoto_Tests-acknowledgements.plist */,
+				E12AA48C610C84333A45979D79A7BF1F /* Pods-Mikoto_Tests-dummy.m */,
+				6AA0213BE36367F310C64C972E309137 /* Pods-Mikoto_Tests-frameworks.sh */,
+				DBC20D9EB517008648AC461142751935 /* Pods-Mikoto_Tests-resources.sh */,
+				F59BE67DD839DF54E548A0ABB46E8844 /* Pods-Mikoto_Tests-umbrella.h */,
+				A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */,
+				F17444FD6CA768D7653F94760904B8D9 /* Pods-Mikoto_Tests.release.xcconfig */,
+			);
+			name = "Pods-Mikoto_Tests";
+			path = "Target Support Files/Pods-Mikoto_Tests";
+			sourceTree = "<group>";
+		};
+		ABA73FDD0A9030A077CBB3A7A95FB999 /* Pods-Mikoto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				58A9C839B0417C19FFB0AE22B6924E38 /* Info.plist */,
+				4DD5F1D57D5BE3D4DD0CC8385AE24A7C /* Pods-Mikoto_Example.modulemap */,
+				CD199717700280FF6C5DDDDFCA18C69C /* Pods-Mikoto_Example-acknowledgements.markdown */,
+				96DE295BE10563F01E4D06E6EFF674C1 /* Pods-Mikoto_Example-acknowledgements.plist */,
+				CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */,
+				1EBF7EE86515C14F4EA088E16A47BCE4 /* Pods-Mikoto_Example-frameworks.sh */,
+				CD99738BF380293335AFAB2FE7F8999F /* Pods-Mikoto_Example-resources.sh */,
+				E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */,
+				10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */,
+				2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */,
+			);
+			name = "Pods-Mikoto_Example";
+			path = "Target Support Files/Pods-Mikoto_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE8FA88CCC50E211333D78CB47158B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21269566641B1D2F671C407B24347634 /* Mikoto.framework */,
+				91923FCE7788317DA8D05A1EA203B81D /* Pods_Mikoto_Example.framework */,
+				AB6AC43E3A79C2DF986E62E97414F026 /* Pods_Mikoto_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8A8236C971CF5E96D451083F98749BC /* Mikoto */ = {
+			isa = PBXGroup;
+			children = (
+				01A60BC0D00933678C51FF0C35FE72BE /* ReplaceMe.swift */,
+				F75245E87E10EA546F749BC7C3AFD17D /* Pod */,
+				FB06C582F1E1CDA345FD335E987F0E95 /* Support Files */,
+			);
+			name = Mikoto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F75245E87E10EA546F749BC7C3AFD17D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				89885F6E15E39030C275EA708E2148AD /* LICENSE */,
+				DA01D17EC4BBBCC09AEAB68692C26A56 /* Mikoto.podspec */,
+				E50842D7A8565E395AE332062C1956A7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FB06C582F1E1CDA345FD335E987F0E95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80610BF0D1B4F0A9B5932A1181B08176 /* Info.plist */,
+				E2B2904E44C9E603B1CADF9C228A5808 /* Mikoto.modulemap */,
+				AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */,
+				A59204FAF685962D7651ECDBDD6E02A1 /* Mikoto-dummy.m */,
+				82D28E3164D525DD1B478FF88782FAE9 /* Mikoto-prefix.pch */,
+				9CA324D6798685041E1BB78224ED2877 /* Mikoto-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Mikoto";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09DD7567F5455FFABA4B30C4B9686187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B9EDA3EA61735B2BCDA65977969454 /* Pods-Mikoto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B3BC2DA8BC57B6B7202942E6E60DE53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253E23B7F1721A7C9C059770DE833DBA /* Mikoto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747F2B8DCDB41BB945EC447103E7F75D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4C3256FF3DE2243B4DB25CD51E71D7 /* Pods-Mikoto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67B99B0498087EC2A1E070CB4E3AD763 /* Pods-Mikoto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2C2730214273461E64F61063DE2F54 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */;
+			buildPhases = (
+				4FE2846C77873C2588AF9D59245F552A /* Sources */,
+				60D59DDCB85F976059E4DC7F71029906 /* Frameworks */,
+				747F2B8DCDB41BB945EC447103E7F75D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB6DF1EC2DE39FA31595E5A20BFAC2C /* PBXTargetDependency */,
+			);
+			name = "Pods-Mikoto_Example";
+			productName = "Pods-Mikoto_Example";
+			productReference = 91923FCE7788317DA8D05A1EA203B81D /* Pods_Mikoto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C1D61DC01690FFE9EC09B34E8FB2727 /* Pods-Mikoto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB08A5F9EDC9EE15392BA2DDC4EC2BCF /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Tests" */;
+			buildPhases = (
+				A277316AF5887A5AE10290E932B2F1FE /* Sources */,
+				FC993FF618A69691BEE3A13FCC7427B7 /* Frameworks */,
+				09DD7567F5455FFABA4B30C4B9686187 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173B2B8DBB1EB5D502A179E685EF4F76 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mikoto_Tests";
+			productName = "Pods-Mikoto_Tests";
+			productReference = AB6AC43E3A79C2DF986E62E97414F026 /* Pods_Mikoto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7340358811CFF21A8E58AE58DCDA4EE0 /* Mikoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1110C5977C2CCF69094026E76E6BE41B /* Build configuration list for PBXNativeTarget "Mikoto" */;
+			buildPhases = (
+				086786E40DB63D3548FE90A6735AB123 /* Sources */,
+				06083E04254B7F70BC7E17197EAC2E14 /* Frameworks */,
+				0B3BC2DA8BC57B6B7202942E6E60DE53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mikoto;
+			productName = Mikoto;
+			productReference = 21269566641B1D2F671C407B24347634 /* Mikoto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BDE8FA88CCC50E211333D78CB47158B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7340358811CFF21A8E58AE58DCDA4EE0 /* Mikoto */,
+				67B99B0498087EC2A1E070CB4E3AD763 /* Pods-Mikoto_Example */,
+				6C1D61DC01690FFE9EC09B34E8FB2727 /* Pods-Mikoto_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086786E40DB63D3548FE90A6735AB123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96315CAB65CC06A916A64DB7A4A1D2A6 /* Mikoto-dummy.m in Sources */,
+				D55EF9296B4075701456B6E3AB847673 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE2846C77873C2588AF9D59245F552A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D68D38586FBDDDB0A1D7DD789B2016 /* Pods-Mikoto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A277316AF5887A5AE10290E932B2F1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB987D7D4C731F29D7F9DE10BA6C71E0 /* Pods-Mikoto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173B2B8DBB1EB5D502A179E685EF4F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Mikoto_Example";
+			target = 67B99B0498087EC2A1E070CB4E3AD763 /* Pods-Mikoto_Example */;
+			targetProxy = FD936AC3243FB2382198BF176BB8B3F7 /* PBXContainerItemProxy */;
+		};
+		5DB6DF1EC2DE39FA31595E5A20BFAC2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mikoto;
+			target = 7340358811CFF21A8E58AE58DCDA4EE0 /* Mikoto */;
+			targetProxy = 1096B4E16DD245380CBF084BC6CF01A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070658A9233D93E2B2C4E2390E8590C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EC6EC11DCE7A85C162B2682D954C43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C2A6161ED12B2DABBB18499E820F36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
+				PRODUCT_MODULE_NAME = Mikoto;
+				PRODUCT_NAME = Mikoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		802B933368CA92C0A0BD22ED2832DFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17444FD6CA768D7653F94760904B8D9 /* Pods-Mikoto_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CE847D689F201F8212288D89D69C90DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F08654A5C6FEDB9992BF5571F4A0F32E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3DC9A149FBEF6F5E68467FD6EB83CA /* Mikoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
+				PRODUCT_MODULE_NAME = Mikoto;
+				PRODUCT_NAME = Mikoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1110C5977C2CCF69094026E76E6BE41B /* Build configuration list for PBXNativeTarget "Mikoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08654A5C6FEDB9992BF5571F4A0F32E /* Debug */,
+				5C2A6161ED12B2DABBB18499E820F36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2C2730214273461E64F61063DE2F54 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC6EC11DCE7A85C162B2682D954C43C /* Debug */,
+				CE847D689F201F8212288D89D69C90DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB08A5F9EDC9EE15392BA2DDC4EC2BCF /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070658A9233D93E2B2C4E2390E8590C5 /* Debug */,
+				802B933368CA92C0A0BD22ED2832DFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

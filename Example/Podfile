@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Mikoto_Example' do
+  pod 'Mikoto', :path => '../'
+
+  target 'Mikoto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - Mikoto (0.1.0)
+
+DEPENDENCIES:
+  - Mikoto (from `../`)
+
+EXTERNAL SOURCES:
+  Mikoto:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mikoto: cb41f575061622a22d2bbf52bca19bd8c55d4d63
+
+PODFILE CHECKSUM: 84ee80bf37e06de67d93f0a9d856ad6d8ffefc65
+
+COCOAPODS: 1.5.3

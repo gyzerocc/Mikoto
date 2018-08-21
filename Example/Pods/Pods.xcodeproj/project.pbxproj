@@ -7,107 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05318D7E4E2FE4382CAE51AAA6388A5B /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D5E7E3E88175571B94A24DB4DE145A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		059B2940C3933070CB24AD0672609F87 /* DateFormatter+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F26086FB4D00F74E9104418444FEEE /* DateFormatter+Ex.swift */; };
-		0E083530B4332342AA99343574D1AE1E /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B55F88231D6E27658377BE3331A845 /* Regex.swift */; };
-		16AD915CB984F6D23B60A5C5CFBA059D /* UIImage+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA35055B6CAFBBFA297C11D674859 /* UIImage+Ex.swift */; };
-		1C565997126C5C6E38DF746EFA72709E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
-		1C5F15584315CBAE3BD5EBD63B17C057 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */; };
-		22F45CB838EBEF04960FE50302D6E953 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A8BF7C6325AFF5C0E79FA63896B9D1 /* SVProgressHUD.framework */; };
-		275DE5FC31174B72004383E4C53354FE /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884060FF8CEF89130D709B9220C995F /* SVProgressHUD.m */; };
-		2819A03D0386FE53BBD8A071D4F2E19C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
-		29E64E797336E6F134D3ADA7AAF57CCF /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 127CCB2B3127EB54808E3E5C3162F0C3 /* SVProgressHUD-dummy.m */; };
-		2CB241E1936728F67909929D91A7F8AB /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F2D9DCC8A96E842753FE17CFCF4F0B /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		321CE454CDC644B539B466BFBAA63BA3 /* Toast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5127DE37D8264876891D09418658A827 /* Toast.framework */; };
-		346115DFB01E337A52A9D9C8B05E720F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE49AA28DCD0A7E4E9853839E43C9B9 /* SVIndefiniteAnimatedView.m */; };
-		3B8870CEB535A4FF98737A7B23176681 /* CtmTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1A0B11452C8ED3D58124A8F4310FD /* CtmTextField.swift */; };
-		3C7F2E8D6FD54D0708BFE668D5B9D3E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */; };
-		40C95C103719C9BA0AC60037B71408C7 /* UITableViewDataSource+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABDF48854D8CCEC8C296EEF6D8C534 /* UITableViewDataSource+Ex.swift */; };
-		4121F7013374930AD8519E297BBE041F /* DispatchQueue+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B481E316AE87E229B074155C5670F5F /* DispatchQueue+Ex.swift */; };
-		4212A5BCABF3C57E4C034EC5F062DA3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
-		46B9EDA3EA61735B2BCDA65977969454 /* Pods-Mikoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59BE67DD839DF54E548A0ABB46E8844 /* Pods-Mikoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ADCB9094B17EA33D03CE02528FCEB9E /* Pods-Mikoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */; };
-		5F24D01EB539B1220E8A11CD13567E86 /* Dictionary+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D08F5DC8E852AEC5404892CF2161C /* Dictionary+Ex.swift */; };
-		5FB488697B409668D549CB7E81398656 /* UIFont+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D144CD038884595EA0480E09CC8AF0 /* UIFont+Ex.swift */; };
-		678672462A9B8E8AA94D5E4950C289B6 /* BaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CF75432BB13A8D8204460446E3FC4 /* BaseHelper.swift */; };
-		6FCAF7C445C06DE4C64FC95BA79CD76D /* BHBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A78349AB867F416D4B1014BA2CA7FE /* BHBaseHelper.m */; };
-		758BD95B77ED9E32CF18A3B858E414EC /* CtmTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE87FC5597C1E370CD7A2ADF6FC2FB0 /* CtmTextView.swift */; };
-		775A1121F97A92D18EC56E82C61355EF /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913ECB32E42185A917B88DE3AED7F9D0 /* HUD.swift */; };
-		7AA0F16093D5156694A6672A97997B3E /* UIAlertController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524AD74FE520D452FA75F9DCE457BF3 /* UIAlertController+Ex.swift */; };
-		825FC5C34D4B6DC4978AFB498579FFB9 /* Mikoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896D1C4D29E0ECD3CA409EEA288304E /* Mikoto-dummy.m */; };
-		862C183EFF7965B1FE522BFFFBF753F0 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AE6FB21ED82E8A98AB411DF1745E22 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		87B583B216299F4CD77DA6361B86781E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9849E7128FAB9C014561D01B70FF9170 /* SVProgressAnimatedView.m */; };
-		88448B1F8ED24BE1B3C7B2A33C28DF6A /* Pods-Mikoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CD5D4AB3BDDFC66AAD524D0EF2734D1 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290F6E07448610808083F3FEBE6B962 /* String+Ex.swift */; };
-		8D3DE186D0E3FE0B93312CA457AE617B /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC2203CE0ABB67EF2321175B876CBD /* Namespace.swift */; };
-		96237D0ECA87848807617157016EA675 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FFEC46073843D1F0E550DC0BFA5C6 /* UIView+Ex.swift */; };
-		968CC2D16BE5D237B62A160BCDFCBFCF /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9828939E0E7CC4C50078592BA4881F40 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E626A45FF11158C8B785975D36C5C39 /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08243061417421E3EDA90AF79D535529 /* Ext.swift */; };
-		A007734DC575CAE418C724CE8A56B558 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1E085608E7894A1F56D9B497CAD55B /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2C262429A9C72CC673C9CC88D230AD2 /* Array+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FBFE41BCA275E8AE357A1324448644 /* Array+Ex.swift */; };
-		A589775D9A672893CBBBAFD8CC849D40 /* BHBaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A4AC3C688167E70808591BC3149C1B /* BHBaseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5D33E1373D189ED1C2C47A03A123788 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1370F5B0C475E58E4D239EEDC3125E3E /* SVProgressHUD.bundle */; };
-		A7F5A1D349660EC529303B61AFEBEE70 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54389EA5F43FD8BA4F43B7683D819425 /* Toast-dummy.m */; };
-		A80018DA0652902F7BCDFE1204FAE0E0 /* FileManager+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBEAC5B23F4A5B4E34FE6D52E080A01 /* FileManager+Ex.swift */; };
-		A9A8AE48507BBCD040CC453128B501C1 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71C2D93F64E2C5DCD7E5F745E82E0 /* Base.swift */; };
-		AA6035D1F6292249EC856E0E05363C28 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C515E2E5388D8F85308006DED7685EA /* UIColor+Ex.swift */; };
-		AC607CC76BEF2BD0607B701E898EE24A /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E527BFEEC6A924DFFA2BA965BA79A5 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE913D4346BDBFC52E0CAF90A47F04FC /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2C526F9E03389EEB73DDC1A712FC6F /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C062F553B9805FFE084AFA9C91DA61F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
-		C66DC9E72501B8677222DCE55E766E72 /* UIViewController+Dealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A655D0F66878F931EA5F053C87FFF6A /* UIViewController+Dealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF49C5FC1A2F03014F697EEDBDDE5D2 /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1270CC4CE102412F895BD220AE5BD /* UIViewController+Dealloc.m */; };
-		D2F7680D86E0EF2C6C889B9CC4AE1758 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
-		DB987D7D4C731F29D7F9DE10BA6C71E0 /* Pods-Mikoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E12AA48C610C84333A45979D79A7BF1F /* Pods-Mikoto_Tests-dummy.m */; };
-		DD70FC4E5C101D3037CFE877ED91DBB0 /* UITableView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB937271DEAE2FF8E8BE894242B18A5 /* UITableView+Ex.swift */; };
-		ED40894E95109A839A996B1FF59E2A07 /* Mikoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C5A3B30C635FA778FCD94885960CD4 /* Mikoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F319FE7C2F2F0FDBF3E014C243A398E6 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A84132207CA9C8E8EB169841F6E8C3 /* SVRadialGradientLayer.m */; };
-		FCFD788DF1757F81973ED218BD2FBCFB /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA59231AD4D083887302A60DCB98206 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD85EF6A07A63F7C8EEB99E40A35C911 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F5F29921D983C4E720AB3647FF5623 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE8297249988DBDDDFCC8FFCFF0F3DFE /* CALayer+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B74CCAEFF7B3EF347B9755DF2AC67F /* CALayer+Ex.swift */; };
+		0337B6D33E40381B27004D0AD5179FF0 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A84132207CA9C8E8EB169841F6E8C3 /* SVRadialGradientLayer.m */; };
+		03C94B2A84535D408BEE2F57743B94B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */; };
+		0F1469BCACF7045CB733127CE8BD4B3B /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2C526F9E03389EEB73DDC1A712FC6F /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1739326C27E79F10B875558D573795B2 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290F6E07448610808083F3FEBE6B962 /* String+Ex.swift */; };
+		23070C134073E117EC8522969D1AE660 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C515E2E5388D8F85308006DED7685EA /* UIColor+Ex.swift */; };
+		238AA3456C9F578DD67E7B7C8AF040AF /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F5F29921D983C4E720AB3647FF5623 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25279FE9962D332A540DEBC676DDF54E /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 127CCB2B3127EB54808E3E5C3162F0C3 /* SVProgressHUD-dummy.m */; };
+		2699419DE4213E8900D8A25F51459F5F /* Pods-Mikoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E12AA48C610C84333A45979D79A7BF1F /* Pods-Mikoto_Tests-dummy.m */; };
+		2C3E3BA0708E3AE92FA1540CB33C11C5 /* CtmTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1A0B11452C8ED3D58124A8F4310FD /* CtmTextField.swift */; };
+		3B7739A784C0563321DE9DA96AB5026C /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AE6FB21ED82E8A98AB411DF1745E22 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		484C1BD957147D4F623C103DE4167943 /* BHBaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A4AC3C688167E70808591BC3149C1B /* BHBaseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD649289ED3F39C00087C4D2FEFE719 /* DateFormatter+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F26086FB4D00F74E9104418444FEEE /* DateFormatter+Ex.swift */; };
+		4C13A8968A25F48705799B406676AAFB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1370F5B0C475E58E4D239EEDC3125E3E /* SVProgressHUD.bundle */; };
+		4DD92A89538FF3805E2ADD10F0926178 /* FileManager+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBEAC5B23F4A5B4E34FE6D52E080A01 /* FileManager+Ex.swift */; };
+		529A037116A91528F00FCB0976413EEE /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F71C2D93F64E2C5DCD7E5F745E82E0 /* Base.swift */; };
+		547F03C74B31AE5467AA6635B3239602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		556AFF80CB91C0BD245F3030C8CCAC08 /* Mikoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2896D1C4D29E0ECD3CA409EEA288304E /* Mikoto-dummy.m */; };
+		56B973719ED13F6EFBF58F2C8A1358D8 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913ECB32E42185A917B88DE3AED7F9D0 /* HUD.swift */; };
+		5EAC4CEAC6EC898CC432549BF0CEF2D0 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D5E7E3E88175571B94A24DB4DE145A /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EF05A978625282359514B2BD9101590 /* UIViewController+Dealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A655D0F66878F931EA5F053C87FFF6A /* UIViewController+Dealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEF0B14F4D4861750CE97E289666E4C /* UITableView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB937271DEAE2FF8E8BE894242B18A5 /* UITableView+Ex.swift */; };
+		635E1A718DC5DB84E9E38E4E0A52ED8E /* UITableViewDataSource+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ABDF48854D8CCEC8C296EEF6D8C534 /* UITableViewDataSource+Ex.swift */; };
+		64DD4186869DD20E1A556E5A7A90A751 /* CALayer+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B74CCAEFF7B3EF347B9755DF2AC67F /* CALayer+Ex.swift */; };
+		64E498167B27618D50BFE7A7F57D52D6 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54389EA5F43FD8BA4F43B7683D819425 /* Toast-dummy.m */; };
+		6BCC2F7C4C8397556B6E62B2C834941C /* Mikoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C5A3B30C635FA778FCD94885960CD4 /* Mikoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707595D2D1858FADC24AD5E222A9DF8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		71AE9875355210D110A8E09E2CEA5A53 /* UIAlertController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524AD74FE520D452FA75F9DCE457BF3 /* UIAlertController+Ex.swift */; };
+		74B5FAEF491F332B33DFBE50DE7F0487 /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB1270CC4CE102412F895BD220AE5BD /* UIViewController+Dealloc.m */; };
+		803F0D3174B984003F42AC1EF76D1001 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DD80A5A94F0CA6AA701358B4E7FFF4 /* QuartzCore.framework */; };
+		84C50C0CEF508129277DBA721253D200 /* UIImage+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA35055B6CAFBBFA297C11D674859 /* UIImage+Ex.swift */; };
+		87FD38DD8CFDD4E1333CBB2286B9EA88 /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F2D9DCC8A96E842753FE17CFCF4F0B /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A5840311E3CE75CE0B5006BFE35C8CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		97460118F6408200C9531DD217FB120A /* Toast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5127DE37D8264876891D09418658A827 /* Toast.framework */; };
+		9B8D73F31E3D47730731FD2D8ECB0F8E /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B55F88231D6E27658377BE3331A845 /* Regex.swift */; };
+		9CF171D1ECAD0E830DD389BDF2C92652 /* Pods-Mikoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB18FD0631F91411033C4ABB95FAC38 /* Pods-Mikoto_Example-dummy.m */; };
+		9D98CAAB54C57F48E0DA3D8E267450B5 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA59231AD4D083887302A60DCB98206 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E08853B6DAE43C07587EB0791BC7F5C /* DispatchQueue+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B481E316AE87E229B074155C5670F5F /* DispatchQueue+Ex.swift */; };
+		A16A205D7924ADCB0BD0E7FD563F5171 /* Namespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EC2203CE0ABB67EF2321175B876CBD /* Namespace.swift */; };
+		A7790D534B94E2FF10B3649A2229620B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		B14DAD314BED1FE74F826F61FFA8E273 /* CtmTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE87FC5597C1E370CD7A2ADF6FC2FB0 /* CtmTextView.swift */; };
+		B2031F176CD99887B8720DA4A6103F51 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E527BFEEC6A924DFFA2BA965BA79A5 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B706AAA31C0961388CA13DA9C4564D31 /* BHBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A78349AB867F416D4B1014BA2CA7FE /* BHBaseHelper.m */; };
+		B9AFD99654FEFCBB8E35EC08AD58ED32 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2884060FF8CEF89130D709B9220C995F /* SVProgressHUD.m */; };
+		C351D46D92C522721026E95B2021C3BA /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A8BF7C6325AFF5C0E79FA63896B9D1 /* SVProgressHUD.framework */; };
+		C555AF9C6EC2A08E1DEA2291327C3E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C266F4921BB0F10F617C3715E956924 /* Foundation.framework */; };
+		CDB79F98B150921F4061E95BF4DC1CF7 /* Dictionary+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D08F5DC8E852AEC5404892CF2161C /* Dictionary+Ex.swift */; };
+		D01D1BBCD5BE566444E89FB02D19C7B6 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FFEC46073843D1F0E550DC0BFA5C6 /* UIView+Ex.swift */; };
+		D4A041053F1087C75686F8E6FA5335A6 /* BaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CF75432BB13A8D8204460446E3FC4 /* BaseHelper.swift */; };
+		DD2F2E3DF9743B5C82D8B91B6F14163E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9849E7128FAB9C014561D01B70FF9170 /* SVProgressAnimatedView.m */; };
+		DDE9E934AED6E1059D000CF6798C286D /* Array+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FBFE41BCA275E8AE357A1324448644 /* Array+Ex.swift */; };
+		E13F80427EACD829C41AECF338422E4A /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08243061417421E3EDA90AF79D535529 /* Ext.swift */; };
+		E5757632785E537C9EC639FE4E894EB2 /* Pods-Mikoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DAF5498C96533AA0931CE4A341780A /* Pods-Mikoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8CE2317B2F924EED511ED29DEEAD57F /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1E085608E7894A1F56D9B497CAD55B /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4D763863D7B5510DDC673B81A20C34 /* Pods-Mikoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F59BE67DD839DF54E548A0ABB46E8844 /* Pods-Mikoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F01B1A50C05D5C1D2949BB849A4DECBB /* UIFont+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D144CD038884595EA0480E09CC8AF0 /* UIFont+Ex.swift */; };
+		F52AC823112F89E7D041C91BF291B343 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE49AA28DCD0A7E4E9853839E43C9B9 /* SVIndefiniteAnimatedView.m */; };
+		F64BC26471EAE04730BBA3502BA4DAD2 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 9828939E0E7CC4C50078592BA4881F40 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A987442A0D3DCD10A4CF43322084349 /* PBXContainerItemProxy */ = {
+		0A279F6EC8D7200FCE9938724C61F61A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F5404E8F5F140116DAA58387F4BFB8BD;
+			remoteGlobalIDString = 00CC8C424934456442B8E235B7BD29E3;
+			remoteInfo = Toast;
+		};
+		9581DC6DFCB542B2A260901270155C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CC8C424934456442B8E235B7BD29E3;
+			remoteInfo = Toast;
+		};
+		BC46D6C20857DC8C0ECA41EF333703F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D2F4FE0812DE42462E1E96912B19122;
+			remoteInfo = SVProgressHUD;
+		};
+		CC3315AF08627BD7F17362831F336395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B3ABE4C073BD9BE8FF4F993E847D3D;
 			remoteInfo = Mikoto;
 		};
-		6BEC3682612733D2C59D5FEE198C19E2 /* PBXContainerItemProxy */ = {
+		E99E02B68CFDDF2646D531E328759F10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A2083A36050C6EE15575A412A1E2F7B;
-			remoteInfo = SVProgressHUD;
-		};
-		9B57B9ACEEEB11146FC23AC1057779E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A2083A36050C6EE15575A412A1E2F7B;
-			remoteInfo = SVProgressHUD;
-		};
-		DBC2EEDE8F607AD0FB4C446058DB2356 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1309A31514C8C275195B1DFC4B1BB0BD;
-			remoteInfo = Toast;
-		};
-		FD936AC3243FB2382198BF176BB8B3F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7881997CE99F72AA38FF4BAF7CDD6F27;
+			remoteGlobalIDString = CC20ACA46F4E3030F05070118CADFA61;
 			remoteInfo = "Pods-Mikoto_Example";
 		};
-		FFC3C9A1C56D64C5F1952F3CD9CE4FC9 /* PBXContainerItemProxy */ = {
+		F09EBEF030D1A77DC16CC920B56A8827 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1309A31514C8C275195B1DFC4B1BB0BD;
-			remoteInfo = Toast;
+			remoteGlobalIDString = 8D2F4FE0812DE42462E1E96912B19122;
+			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -204,47 +204,47 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0ECEB8E0F3D24AB55C50D6C8302051BA /* Frameworks */ = {
+		44E06F8063880FE9372F67B8B9470A19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C062F553B9805FFE084AFA9C91DA61F8 /* Foundation.framework in Frameworks */,
-				1C5F15584315CBAE3BD5EBD63B17C057 /* QuartzCore.framework in Frameworks */,
+				C555AF9C6EC2A08E1DEA2291327C3E97 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		150EE67B9D02649D0E99257F1264A43E /* Frameworks */ = {
+		54B9F942F1519CBA25A2C39522283696 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2819A03D0386FE53BBD8A071D4F2E19C /* Foundation.framework in Frameworks */,
-				3C7F2E8D6FD54D0708BFE668D5B9D3E7 /* QuartzCore.framework in Frameworks */,
+				547F03C74B31AE5467AA6635B3239602 /* Foundation.framework in Frameworks */,
+				803F0D3174B984003F42AC1EF76D1001 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80914EAA45EEBD6B28C1F5B87E62C96C /* Frameworks */ = {
+		A703523E03E1177205EBC27A8E7A9743 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4212A5BCABF3C57E4C034EC5F062DA3D /* Foundation.framework in Frameworks */,
-				22F45CB838EBEF04960FE50302D6E953 /* SVProgressHUD.framework in Frameworks */,
-				321CE454CDC644B539B466BFBAA63BA3 /* Toast.framework in Frameworks */,
+				707595D2D1858FADC24AD5E222A9DF8F /* Foundation.framework in Frameworks */,
+				C351D46D92C522721026E95B2021C3BA /* SVProgressHUD.framework in Frameworks */,
+				97460118F6408200C9531DD217FB120A /* Toast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		925ECC8A36F8E69F2AC3CE6504BE5187 /* Frameworks */ = {
+		BA0071AA8578A3FC234EBAB7E5B56352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C565997126C5C6E38DF746EFA72709E /* Foundation.framework in Frameworks */,
+				8A5840311E3CE75CE0B5006BFE35C8CE /* Foundation.framework in Frameworks */,
+				03C94B2A84535D408BEE2F57743B94B5 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC993FF618A69691BEE3A13FCC7427B7 /* Frameworks */ = {
+		CFE8152E55BCA8143FE467D16625C0AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F7680D86E0EF2C6C889B9CC4AE1758 /* Foundation.framework in Frameworks */,
+				A7790D534B94E2FF10B3649A2229620B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,64 +529,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		07F1792A3F2729F5750F689FED9C7C87 /* Headers */ = {
+		084891F374B124510D9656C0A8DCDFA7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC607CC76BEF2BD0607B701E898EE24A /* SVIndefiniteAnimatedView.h in Headers */,
-				AE913D4346BDBFC52E0CAF90A47F04FC /* SVProgressAnimatedView.h in Headers */,
-				05318D7E4E2FE4382CAE51AAA6388A5B /* SVProgressHUD-umbrella.h in Headers */,
-				FD85EF6A07A63F7C8EEB99E40A35C911 /* SVProgressHUD.h in Headers */,
-				FCFD788DF1757F81973ED218BD2FBCFB /* SVRadialGradientLayer.h in Headers */,
+				E5757632785E537C9EC639FE4E894EB2 /* Pods-Mikoto_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		09DD7567F5455FFABA4B30C4B9686187 /* Headers */ = {
+		2A8B007997C31AE4BB0A9B85B416A3BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B9EDA3EA61735B2BCDA65977969454 /* Pods-Mikoto_Tests-umbrella.h in Headers */,
+				484C1BD957147D4F623C103DE4167943 /* BHBaseHelper.h in Headers */,
+				6BCC2F7C4C8397556B6E62B2C834941C /* Mikoto-umbrella.h in Headers */,
+				5EF05A978625282359514B2BD9101590 /* UIViewController+Dealloc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52190692D9A413322B0D84AF5092AB5C /* Headers */ = {
+		32916178CDAEF2A4270CFAF2667461BB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88448B1F8ED24BE1B3C7B2A33C28DF6A /* Pods-Mikoto_Example-umbrella.h in Headers */,
+				B2031F176CD99887B8720DA4A6103F51 /* SVIndefiniteAnimatedView.h in Headers */,
+				0F1469BCACF7045CB733127CE8BD4B3B /* SVProgressAnimatedView.h in Headers */,
+				5EAC4CEAC6EC898CC432549BF0CEF2D0 /* SVProgressHUD-umbrella.h in Headers */,
+				238AA3456C9F578DD67E7B7C8AF040AF /* SVProgressHUD.h in Headers */,
+				9D98CAAB54C57F48E0DA3D8E267450B5 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CEB0CF4ECFDC896EE375D82DF42450E /* Headers */ = {
+		CF24762A64D25918EE3D7E15B10A6716 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB241E1936728F67909929D91A7F8AB /* Toast-umbrella.h in Headers */,
-				A007734DC575CAE418C724CE8A56B558 /* Toast.h in Headers */,
-				968CC2D16BE5D237B62A160BCDFCBFCF /* UIView+Toast.h in Headers */,
+				EA4D763863D7B5510DDC673B81A20C34 /* Pods-Mikoto_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E17C829C51AE74680EF1EFC5FB309CE /* Headers */ = {
+		CF8B8A362B0BF60B14FED85A19192D5E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A589775D9A672893CBBBAFD8CC849D40 /* BHBaseHelper.h in Headers */,
-				ED40894E95109A839A996B1FF59E2A07 /* Mikoto-umbrella.h in Headers */,
-				C66DC9E72501B8677222DCE55E766E72 /* UIViewController+Dealloc.h in Headers */,
+				87FD38DD8CFDD4E1333CBB2286B9EA88 /* Toast-umbrella.h in Headers */,
+				E8CE2317B2F924EED511ED29DEEAD57F /* Toast.h in Headers */,
+				F64BC26471EAE04730BBA3502BA4DAD2 /* UIView+Toast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1309A31514C8C275195B1DFC4B1BB0BD /* Toast */ = {
+		00CC8C424934456442B8E235B7BD29E3 /* Toast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14AEB3359A0370B854AD7D9443B7B918 /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildConfigurationList = 46576D125940A76240F12B2C524F24D5 /* Build configuration list for PBXNativeTarget "Toast" */;
 			buildPhases = (
-				91C68C7DE5D751B4EDE45AF12D60DD1F /* Sources */,
-				150EE67B9D02649D0E99257F1264A43E /* Frameworks */,
-				9CEB0CF4ECFDC896EE375D82DF42450E /* Headers */,
+				CF8B8A362B0BF60B14FED85A19192D5E /* Headers */,
+				5EC2C87E95F07DA78424BA830511D7F3 /* Sources */,
+				BA0071AA8578A3FC234EBAB7E5B56352 /* Frameworks */,
+				F40AE4BECEF3F9B581E962C1AA7A9A07 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -597,52 +598,53 @@
 			productReference = 6CFA2C742B94AD06FFE34089350532C5 /* Toast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6C1D61DC01690FFE9EC09B34E8FB2727 /* Pods-Mikoto_Tests */ = {
+		5574C1F7705D13E7CCCE40FB4C6C3983 /* Pods-Mikoto_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB08A5F9EDC9EE15392BA2DDC4EC2BCF /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Tests" */;
+			buildConfigurationList = 678CA7F31DA2B71797C907CF04B220D2 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Tests" */;
 			buildPhases = (
-				A277316AF5887A5AE10290E932B2F1FE /* Sources */,
-				FC993FF618A69691BEE3A13FCC7427B7 /* Frameworks */,
-				09DD7567F5455FFABA4B30C4B9686187 /* Headers */,
+				CF24762A64D25918EE3D7E15B10A6716 /* Headers */,
+				8E04B40AFEA8B771B54F3F7A11442774 /* Sources */,
+				CFE8152E55BCA8143FE467D16625C0AA /* Frameworks */,
+				B3E572BB0C09E3317613E44A345FF3E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				173B2B8DBB1EB5D502A179E685EF4F76 /* PBXTargetDependency */,
+				18C455610A87FED0221E9AB42A389C2D /* PBXTargetDependency */,
 			);
 			name = "Pods-Mikoto_Tests";
 			productName = "Pods-Mikoto_Tests";
 			productReference = C623269CD82B758F334A9A8D2DCF23AE /* Pods_Mikoto_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7881997CE99F72AA38FF4BAF7CDD6F27 /* Pods-Mikoto_Example */ = {
+		68B3ABE4C073BD9BE8FF4F993E847D3D /* Mikoto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC758F53EE040071B915C31809B91138 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */;
+			buildConfigurationList = 39B93923CD4CC4838B5AA36CB1D62BDF /* Build configuration list for PBXNativeTarget "Mikoto" */;
 			buildPhases = (
-				0581F8A97505F7735B4246AA3C8478AC /* Sources */,
-				925ECC8A36F8E69F2AC3CE6504BE5187 /* Frameworks */,
-				52190692D9A413322B0D84AF5092AB5C /* Headers */,
+				2A8B007997C31AE4BB0A9B85B416A3BC /* Headers */,
+				A6C0B02A8E95B531017D551E9F830A16 /* Sources */,
+				A703523E03E1177205EBC27A8E7A9743 /* Frameworks */,
+				2D83BB6639C1C687A9A252914A93B31D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8ED88ECDEB46053AFB1E0D63377B1315 /* PBXTargetDependency */,
-				4D0474060D213F82D4667D39B7B2F8CB /* PBXTargetDependency */,
-				388082ED047C73F9E2BDA5D8B1770343 /* PBXTargetDependency */,
+				3689F6EF8528DA293C7F2593FF7D3A01 /* PBXTargetDependency */,
+				B697764B0D8ABDACC80A82B007B2F6E2 /* PBXTargetDependency */,
 			);
-			name = "Pods-Mikoto_Example";
-			productName = "Pods-Mikoto_Example";
-			productReference = D0A44E845B4221D902CC07B661F28F50 /* Pods_Mikoto_Example.framework */;
+			name = Mikoto;
+			productName = Mikoto;
+			productReference = 7A4FB3A64EB4EB19FFD5DB6043F08414 /* Mikoto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */ = {
+		8D2F4FE0812DE42462E1E96912B19122 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D34D65E02520DF44846FB50A9CC863E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = F3451CFABA2844171593AC59A1036BD5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				F4AB86DBBB871B3D4E57423228715AF3 /* Sources */,
-				0ECEB8E0F3D24AB55C50D6C8302051BA /* Frameworks */,
-				07F1792A3F2729F5750F689FED9C7C87 /* Headers */,
-				F5D50828BBE5D3BA735018A14D39E1AE /* Resources */,
+				32916178CDAEF2A4270CFAF2667461BB /* Headers */,
+				0DCDD485AA1A38508DDEB1419F1359F3 /* Sources */,
+				54B9F942F1519CBA25A2C39522283696 /* Frameworks */,
+				09D3181C606B0F405D73A0A320B362E2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -653,23 +655,25 @@
 			productReference = 4AF2DDF6682B6223EBC828C922793BF2 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F5404E8F5F140116DAA58387F4BFB8BD /* Mikoto */ = {
+		CC20ACA46F4E3030F05070118CADFA61 /* Pods-Mikoto_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F989C93B3626E2C669C116BC2AD9BB9 /* Build configuration list for PBXNativeTarget "Mikoto" */;
+			buildConfigurationList = 56B7E3CBF088FB00E53DBCD8E00B06D5 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */;
 			buildPhases = (
-				FBFA90FCD3E83F225B0F6551D6A8E53F /* Sources */,
-				80914EAA45EEBD6B28C1F5B87E62C96C /* Frameworks */,
-				9E17C829C51AE74680EF1EFC5FB309CE /* Headers */,
+				084891F374B124510D9656C0A8DCDFA7 /* Headers */,
+				FDF6400E372AD7B64B78B9843A63C320 /* Sources */,
+				44E06F8063880FE9372F67B8B9470A19 /* Frameworks */,
+				51DFB0BD08E95B3C50494B25C9D60790 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				431F4AFFA153527A5B4E58435EAFDBA2 /* PBXTargetDependency */,
-				DF91C195F12FD2B9EF79C6173C2DBE2E /* PBXTargetDependency */,
+				AFA8770F904ED0058E655E5B3D7686CF /* PBXTargetDependency */,
+				459134D01CA3761ED262A3E11E1C516F /* PBXTargetDependency */,
+				06FF2CE84DDA1C9E92FD880908A99D41 /* PBXTargetDependency */,
 			);
-			name = Mikoto;
-			productName = Mikoto;
-			productReference = 7A4FB3A64EB4EB19FFD5DB6043F08414 /* Mikoto.framework */;
+			name = "Pods-Mikoto_Example";
+			productName = "Pods-Mikoto_Example";
+			productReference = D0A44E845B4221D902CC07B661F28F50 /* Pods_Mikoto_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -693,174 +697,167 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5404E8F5F140116DAA58387F4BFB8BD /* Mikoto */,
-				7881997CE99F72AA38FF4BAF7CDD6F27 /* Pods-Mikoto_Example */,
-				6C1D61DC01690FFE9EC09B34E8FB2727 /* Pods-Mikoto_Tests */,
-				8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */,
-				1309A31514C8C275195B1DFC4B1BB0BD /* Toast */,
+				68B3ABE4C073BD9BE8FF4F993E847D3D /* Mikoto */,
+				CC20ACA46F4E3030F05070118CADFA61 /* Pods-Mikoto_Example */,
+				5574C1F7705D13E7CCCE40FB4C6C3983 /* Pods-Mikoto_Tests */,
+				8D2F4FE0812DE42462E1E96912B19122 /* SVProgressHUD */,
+				00CC8C424934456442B8E235B7BD29E3 /* Toast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F5D50828BBE5D3BA735018A14D39E1AE /* Resources */ = {
+		09D3181C606B0F405D73A0A320B362E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D33E1373D189ED1C2C47A03A123788 /* SVProgressHUD.bundle in Resources */,
+				4C13A8968A25F48705799B406676AAFB /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D83BB6639C1C687A9A252914A93B31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DFB0BD08E95B3C50494B25C9D60790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E572BB0C09E3317613E44A345FF3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40AE4BECEF3F9B581E962C1AA7A9A07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0581F8A97505F7735B4246AA3C8478AC /* Sources */ = {
+		0DCDD485AA1A38508DDEB1419F1359F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ADCB9094B17EA33D03CE02528FCEB9E /* Pods-Mikoto_Example-dummy.m in Sources */,
+				F52AC823112F89E7D041C91BF291B343 /* SVIndefiniteAnimatedView.m in Sources */,
+				DD2F2E3DF9743B5C82D8B91B6F14163E /* SVProgressAnimatedView.m in Sources */,
+				25279FE9962D332A540DEBC676DDF54E /* SVProgressHUD-dummy.m in Sources */,
+				B9AFD99654FEFCBB8E35EC08AD58ED32 /* SVProgressHUD.m in Sources */,
+				0337B6D33E40381B27004D0AD5179FF0 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91C68C7DE5D751B4EDE45AF12D60DD1F /* Sources */ = {
+		5EC2C87E95F07DA78424BA830511D7F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F5A1D349660EC529303B61AFEBEE70 /* Toast-dummy.m in Sources */,
-				862C183EFF7965B1FE522BFFFBF753F0 /* UIView+Toast.m in Sources */,
+				64E498167B27618D50BFE7A7F57D52D6 /* Toast-dummy.m in Sources */,
+				3B7739A784C0563321DE9DA96AB5026C /* UIView+Toast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A277316AF5887A5AE10290E932B2F1FE /* Sources */ = {
+		8E04B40AFEA8B771B54F3F7A11442774 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB987D7D4C731F29D7F9DE10BA6C71E0 /* Pods-Mikoto_Tests-dummy.m in Sources */,
+				2699419DE4213E8900D8A25F51459F5F /* Pods-Mikoto_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AB86DBBB871B3D4E57423228715AF3 /* Sources */ = {
+		A6C0B02A8E95B531017D551E9F830A16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				346115DFB01E337A52A9D9C8B05E720F /* SVIndefiniteAnimatedView.m in Sources */,
-				87B583B216299F4CD77DA6361B86781E /* SVProgressAnimatedView.m in Sources */,
-				29E64E797336E6F134D3ADA7AAF57CCF /* SVProgressHUD-dummy.m in Sources */,
-				275DE5FC31174B72004383E4C53354FE /* SVProgressHUD.m in Sources */,
-				F319FE7C2F2F0FDBF3E014C243A398E6 /* SVRadialGradientLayer.m in Sources */,
+				DDE9E934AED6E1059D000CF6798C286D /* Array+Ex.swift in Sources */,
+				529A037116A91528F00FCB0976413EEE /* Base.swift in Sources */,
+				D4A041053F1087C75686F8E6FA5335A6 /* BaseHelper.swift in Sources */,
+				B706AAA31C0961388CA13DA9C4564D31 /* BHBaseHelper.m in Sources */,
+				64DD4186869DD20E1A556E5A7A90A751 /* CALayer+Ex.swift in Sources */,
+				2C3E3BA0708E3AE92FA1540CB33C11C5 /* CtmTextField.swift in Sources */,
+				B14DAD314BED1FE74F826F61FFA8E273 /* CtmTextView.swift in Sources */,
+				4BD649289ED3F39C00087C4D2FEFE719 /* DateFormatter+Ex.swift in Sources */,
+				CDB79F98B150921F4061E95BF4DC1CF7 /* Dictionary+Ex.swift in Sources */,
+				9E08853B6DAE43C07587EB0791BC7F5C /* DispatchQueue+Ex.swift in Sources */,
+				E13F80427EACD829C41AECF338422E4A /* Ext.swift in Sources */,
+				4DD92A89538FF3805E2ADD10F0926178 /* FileManager+Ex.swift in Sources */,
+				56B973719ED13F6EFBF58F2C8A1358D8 /* HUD.swift in Sources */,
+				556AFF80CB91C0BD245F3030C8CCAC08 /* Mikoto-dummy.m in Sources */,
+				A16A205D7924ADCB0BD0E7FD563F5171 /* Namespace.swift in Sources */,
+				9B8D73F31E3D47730731FD2D8ECB0F8E /* Regex.swift in Sources */,
+				1739326C27E79F10B875558D573795B2 /* String+Ex.swift in Sources */,
+				71AE9875355210D110A8E09E2CEA5A53 /* UIAlertController+Ex.swift in Sources */,
+				23070C134073E117EC8522969D1AE660 /* UIColor+Ex.swift in Sources */,
+				F01B1A50C05D5C1D2949BB849A4DECBB /* UIFont+Ex.swift in Sources */,
+				84C50C0CEF508129277DBA721253D200 /* UIImage+Ex.swift in Sources */,
+				5FEF0B14F4D4861750CE97E289666E4C /* UITableView+Ex.swift in Sources */,
+				635E1A718DC5DB84E9E38E4E0A52ED8E /* UITableViewDataSource+Ex.swift in Sources */,
+				D01D1BBCD5BE566444E89FB02D19C7B6 /* UIView+Ex.swift in Sources */,
+				74B5FAEF491F332B33DFBE50DE7F0487 /* UIViewController+Dealloc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBFA90FCD3E83F225B0F6551D6A8E53F /* Sources */ = {
+		FDF6400E372AD7B64B78B9843A63C320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2C262429A9C72CC673C9CC88D230AD2 /* Array+Ex.swift in Sources */,
-				A9A8AE48507BBCD040CC453128B501C1 /* Base.swift in Sources */,
-				678672462A9B8E8AA94D5E4950C289B6 /* BaseHelper.swift in Sources */,
-				6FCAF7C445C06DE4C64FC95BA79CD76D /* BHBaseHelper.m in Sources */,
-				FE8297249988DBDDDFCC8FFCFF0F3DFE /* CALayer+Ex.swift in Sources */,
-				3B8870CEB535A4FF98737A7B23176681 /* CtmTextField.swift in Sources */,
-				758BD95B77ED9E32CF18A3B858E414EC /* CtmTextView.swift in Sources */,
-				059B2940C3933070CB24AD0672609F87 /* DateFormatter+Ex.swift in Sources */,
-				5F24D01EB539B1220E8A11CD13567E86 /* Dictionary+Ex.swift in Sources */,
-				4121F7013374930AD8519E297BBE041F /* DispatchQueue+Ex.swift in Sources */,
-				9E626A45FF11158C8B785975D36C5C39 /* Ext.swift in Sources */,
-				A80018DA0652902F7BCDFE1204FAE0E0 /* FileManager+Ex.swift in Sources */,
-				775A1121F97A92D18EC56E82C61355EF /* HUD.swift in Sources */,
-				825FC5C34D4B6DC4978AFB498579FFB9 /* Mikoto-dummy.m in Sources */,
-				8D3DE186D0E3FE0B93312CA457AE617B /* Namespace.swift in Sources */,
-				0E083530B4332342AA99343574D1AE1E /* Regex.swift in Sources */,
-				8CD5D4AB3BDDFC66AAD524D0EF2734D1 /* String+Ex.swift in Sources */,
-				7AA0F16093D5156694A6672A97997B3E /* UIAlertController+Ex.swift in Sources */,
-				AA6035D1F6292249EC856E0E05363C28 /* UIColor+Ex.swift in Sources */,
-				5FB488697B409668D549CB7E81398656 /* UIFont+Ex.swift in Sources */,
-				16AD915CB984F6D23B60A5C5CFBA059D /* UIImage+Ex.swift in Sources */,
-				DD70FC4E5C101D3037CFE877ED91DBB0 /* UITableView+Ex.swift in Sources */,
-				40C95C103719C9BA0AC60037B71408C7 /* UITableViewDataSource+Ex.swift in Sources */,
-				96237D0ECA87848807617157016EA675 /* UIView+Ex.swift in Sources */,
-				CBF49C5FC1A2F03014F697EEDBDDE5D2 /* UIViewController+Dealloc.m in Sources */,
+				9CF171D1ECAD0E830DD389BDF2C92652 /* Pods-Mikoto_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		173B2B8DBB1EB5D502A179E685EF4F76 /* PBXTargetDependency */ = {
+		06FF2CE84DDA1C9E92FD880908A99D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = 00CC8C424934456442B8E235B7BD29E3 /* Toast */;
+			targetProxy = 0A279F6EC8D7200FCE9938724C61F61A /* PBXContainerItemProxy */;
+		};
+		18C455610A87FED0221E9AB42A389C2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Mikoto_Example";
-			target = 7881997CE99F72AA38FF4BAF7CDD6F27 /* Pods-Mikoto_Example */;
-			targetProxy = FD936AC3243FB2382198BF176BB8B3F7 /* PBXContainerItemProxy */;
+			target = CC20ACA46F4E3030F05070118CADFA61 /* Pods-Mikoto_Example */;
+			targetProxy = E99E02B68CFDDF2646D531E328759F10 /* PBXContainerItemProxy */;
 		};
-		388082ED047C73F9E2BDA5D8B1770343 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Toast;
-			target = 1309A31514C8C275195B1DFC4B1BB0BD /* Toast */;
-			targetProxy = FFC3C9A1C56D64C5F1952F3CD9CE4FC9 /* PBXContainerItemProxy */;
-		};
-		431F4AFFA153527A5B4E58435EAFDBA2 /* PBXTargetDependency */ = {
+		3689F6EF8528DA293C7F2593FF7D3A01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = 8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */;
-			targetProxy = 6BEC3682612733D2C59D5FEE198C19E2 /* PBXContainerItemProxy */;
+			target = 8D2F4FE0812DE42462E1E96912B19122 /* SVProgressHUD */;
+			targetProxy = BC46D6C20857DC8C0ECA41EF333703F0 /* PBXContainerItemProxy */;
 		};
-		4D0474060D213F82D4667D39B7B2F8CB /* PBXTargetDependency */ = {
+		459134D01CA3761ED262A3E11E1C516F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = 8A2083A36050C6EE15575A412A1E2F7B /* SVProgressHUD */;
-			targetProxy = 9B57B9ACEEEB11146FC23AC1057779E1 /* PBXContainerItemProxy */;
+			target = 8D2F4FE0812DE42462E1E96912B19122 /* SVProgressHUD */;
+			targetProxy = F09EBEF030D1A77DC16CC920B56A8827 /* PBXContainerItemProxy */;
 		};
-		8ED88ECDEB46053AFB1E0D63377B1315 /* PBXTargetDependency */ = {
+		AFA8770F904ED0058E655E5B3D7686CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mikoto;
-			target = F5404E8F5F140116DAA58387F4BFB8BD /* Mikoto */;
-			targetProxy = 4A987442A0D3DCD10A4CF43322084349 /* PBXContainerItemProxy */;
+			target = 68B3ABE4C073BD9BE8FF4F993E847D3D /* Mikoto */;
+			targetProxy = CC3315AF08627BD7F17362831F336395 /* PBXContainerItemProxy */;
 		};
-		DF91C195F12FD2B9EF79C6173C2DBE2E /* PBXTargetDependency */ = {
+		B697764B0D8ABDACC80A82B007B2F6E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Toast;
-			target = 1309A31514C8C275195B1DFC4B1BB0BD /* Toast */;
-			targetProxy = DBC2EEDE8F607AD0FB4C446058DB2356 /* PBXContainerItemProxy */;
+			target = 00CC8C424934456442B8E235B7BD29E3 /* Toast */;
+			targetProxy = 9581DC6DFCB542B2A260901270155C39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F3BEE5ED07C73E9258FF2CE8AE7368A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1C3A52455E2F8B138030379EB12F901E /* Debug */ = {
+		071F376E3FA11DCF6CD1D676B5C22112 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BF99972FC93669B42AEA4AF47D9D01F1 /* SVProgressHUD.xcconfig */;
 			buildSettings = {
@@ -891,7 +888,331 @@
 			};
 			name = Debug;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		42044D76D9EB90C7AB8FEE325238AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59FA173647D44C3AA02786423AAB0052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
+				PRODUCT_MODULE_NAME = Mikoto;
+				PRODUCT_NAME = Mikoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		671BADC8729EE4D6A029104BF09F8D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67AA17D331679015A31B5E9AA86C8451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
+				PRODUCT_MODULE_NAME = Mikoto;
+				PRODUCT_NAME = Mikoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		783A3263534ACAEB96387E2554E26CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF99972FC93669B42AEA4AF47D9D01F1 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D4794B2D43D495F27D45EC28BA131FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0370818E4546739FEB5F0C842C099F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E38291A9E3656C16E73A9CC1F6E07C7 /* Pods-Mikoto_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A715B25497BB0B29320E01959E3ED9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -945,7 +1266,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -954,40 +1276,7 @@
 			};
 			name = Debug;
 		};
-		2058CFCA726B47786A2CC060DD2C2DFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9E00EC34F31EAD529DBC7B337ED6490 /* Pods-Mikoto_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Tests/Pods-Mikoto_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5056B8E8C2CE027BC89CCA22210AFA55 /* Release */ = {
+		E43FA7C8ECD4E1877B5D59B3CED50B40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F17444FD6CA768D7653F94760904B8D9 /* Pods-Mikoto_Tests.release.xcconfig */;
 			buildSettings = {
@@ -1021,312 +1310,59 @@
 			};
 			name = Release;
 		};
-		5BD5ACD43056C26B21030470EFF21D84 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
-				PRODUCT_MODULE_NAME = Mikoto;
-				PRODUCT_NAME = Mikoto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		79E7FBF68D4BD5367E338A55D2BAA367 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF99972FC93669B42AEA4AF47D9D01F1 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BADB8E5B412CA3A174F0541C3972236A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				PRODUCT_MODULE_NAME = Toast;
-				PRODUCT_NAME = Toast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BD0DB99B3DA908F6A81A3785CE11C272 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10C3078DDABF0EA21F085CDC86C62894 /* Pods-Mikoto_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mikoto_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mikoto_Example/Pods-Mikoto_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CCB2E872B14EEB1A09FC8D1C0BB9E334 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF89F4CB2F00E0C60905E989B338E0C4 /* Toast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				PRODUCT_MODULE_NAME = Toast;
-				PRODUCT_NAME = Toast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D8CAB942C7906C27FB9A0532240B0C3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19118CCC6913BE15AFC5A90A2047999C /* Mikoto.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mikoto/Mikoto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mikoto/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mikoto/Mikoto.modulemap";
-				PRODUCT_MODULE_NAME = Mikoto;
-				PRODUCT_NAME = Mikoto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14AEB3359A0370B854AD7D9443B7B918 /* Build configuration list for PBXNativeTarget "Toast" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCB2E872B14EEB1A09FC8D1C0BB9E334 /* Debug */,
-				BADB8E5B412CA3A174F0541C3972236A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F989C93B3626E2C669C116BC2AD9BB9 /* Build configuration list for PBXNativeTarget "Mikoto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8CAB942C7906C27FB9A0532240B0C3F /* Debug */,
-				5BD5ACD43056C26B21030470EFF21D84 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D34D65E02520DF44846FB50A9CC863E /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		39B93923CD4CC4838B5AA36CB1D62BDF /* Build configuration list for PBXNativeTarget "Mikoto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C3A52455E2F8B138030379EB12F901E /* Debug */,
-				79E7FBF68D4BD5367E338A55D2BAA367 /* Release */,
+				59FA173647D44C3AA02786423AAB0052 /* Debug */,
+				67AA17D331679015A31B5E9AA86C8451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB08A5F9EDC9EE15392BA2DDC4EC2BCF /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Tests" */ = {
+		46576D125940A76240F12B2C524F24D5 /* Build configuration list for PBXNativeTarget "Toast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2058CFCA726B47786A2CC060DD2C2DFC /* Debug */,
-				5056B8E8C2CE027BC89CCA22210AFA55 /* Release */,
+				671BADC8729EE4D6A029104BF09F8D1C /* Debug */,
+				42044D76D9EB90C7AB8FEE325238AAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC758F53EE040071B915C31809B91138 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */ = {
+		56B7E3CBF088FB00E53DBCD8E00B06D5 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD0DB99B3DA908F6A81A3785CE11C272 /* Debug */,
-				0F3BEE5ED07C73E9258FF2CE8AE7368A /* Release */,
+				7D4794B2D43D495F27D45EC28BA131FC /* Debug */,
+				A0370818E4546739FEB5F0C842C099F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678CA7F31DA2B71797C907CF04B220D2 /* Build configuration list for PBXNativeTarget "Pods-Mikoto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A715B25497BB0B29320E01959E3ED9AF /* Debug */,
+				E43FA7C8ECD4E1877B5D59B3CED50B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3451CFABA2844171593AC59A1036BD5 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071F376E3FA11DCF6CD1D676B5C22112 /* Debug */,
+				783A3263534ACAEB96387E2554E26CBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,9 +9,9 @@ import UIKit
 
 public extension UIView {
     
-    public func rounded(_ radius: CGFloat?) {
-        if let r = radius {
-            layer.cornerRadius = r
+    public func rounded(_ radius: CGFloat = 0) {
+        if radius != 0 {
+            layer.cornerRadius = radius
         } else {
             let r = CGFloat.minimum(frame.size.width, frame.size.height)
             layer.cornerRadius = r/2

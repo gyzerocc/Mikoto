@@ -8,13 +8,13 @@
 import Foundation
 
 extension Bool {
-	mutating func toggle() {
+	public mutating func toggle() {
 		self = !self
 	}
 }
 
 extension CGSize {
-	static func itemSize(area: CGRect, column: Int, row: Int, sectionInsets: UIEdgeInsets, itemSpace: CGFloat, lineSpace: CGFloat) -> CGSize {
+	public static func itemSize(area: CGRect, column: Int, row: Int, sectionInsets: UIEdgeInsets, itemSpace: CGFloat, lineSpace: CGFloat) -> CGSize {
 		let width = (area.width - sectionInsets.left - sectionInsets.right - (CGFloat(column) - 1) * itemSpace) / CGFloat(column)
 		let height = (area.height - sectionInsets.top - sectionInsets.bottom - (CGFloat(row) - 1) * lineSpace) / CGFloat(row) - 1
 		return CGSize.init(width: width, height: height)

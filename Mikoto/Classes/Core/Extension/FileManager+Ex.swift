@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension FileManager {
+extension FileManager {
     
     public class func createDirectoryIfNotExists(path:String) -> Bool {
         

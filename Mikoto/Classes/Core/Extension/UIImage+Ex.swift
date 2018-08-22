@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension UIImage {
+extension UIImage {
 	
 	public func thumbnailImage(imageURL: URL, pointSize: CGSize) -> UIImage {
 		let sourceOpt = [kCGImageSourceShouldCache : false] as CFDictionary

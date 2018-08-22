@@ -8,13 +8,10 @@
 
 import UIKit
 
-/// 主窗口
-public var windowMain: UIWindow? {
+var windowMain: UIWindow? {
     return UIApplication.shared.delegate?.window ?? nil
 }
-
-/// 屏幕尺寸
-public var sizeScreen: CGSize {
+var sizeScreen: CGSize {
     var size = UIScreen.main.bounds.size
     if size.height < size.width {
         let tmp = size.height
@@ -23,23 +20,13 @@ public var sizeScreen: CGSize {
     }
     return size
 }
-
-/// 屏幕宽度
-public var widthScreen: CGFloat {
+var widthScreen: CGFloat {
     return sizeScreen.width
 }
-
-/// 屏幕高度
-public var heightScreen: CGFloat {
+var heightScreen: CGFloat {
     return sizeScreen.height
 }
-
-/// 延迟执行，相当于dispatch_after
-///
-/// - Parameters:
-///   - delay: 延迟时间
-///   - closure: 回调闭包
-public func delay(_ delay: Double, closure: @escaping () -> Void) {
+func delay(_ delay: Double, closure: @escaping () -> Void) {
     DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
         closure()
     }
@@ -52,6 +39,7 @@ public func delay(_ delay: Double, closure: @escaping () -> Void) {
 ///   - g: green
 ///   - b: blue
 /// - Returns: return RGB Color
+@available(*, deprecated, renamed: "UIColor.RGB(_:_:_:)")
 public func RGB(_ r: CGFloat,_ g: CGFloat,_ b:CGFloat) -> UIColor {
 	let n: CGFloat = 255.0
 	let color = UIColor.init(red: r/n, green: g/n, blue: b/n, alpha: 1)
@@ -66,6 +54,7 @@ public func RGB(_ r: CGFloat,_ g: CGFloat,_ b:CGFloat) -> UIColor {
 ///   - b: blue
 ///   - a: alpha
 /// - Returns: return RGBA Color
+@available(*, deprecated, renamed: "UIColor.RGB(_:_:_:_:)")
 public func RGBA(_ r: CGFloat,_ g: CGFloat,_ b:CGFloat,_ a: CGFloat) -> UIColor {
 	let n: CGFloat = 255.0
 	let color = UIColor.init(red: r/n, green: g/n, blue: b/n, alpha: a)

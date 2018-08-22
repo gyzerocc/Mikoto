@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension String {
+extension String {
 	
 	/// 字符串长度 （中文&emoji）== 两个字符
 	public var textLength: UInt {

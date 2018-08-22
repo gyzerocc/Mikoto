@@ -7,12 +7,38 @@
 //
 
 import UIKit
+import Mikoto
+
+var windowMain: UIWindow? {
+	return UIApplication.shared.delegate?.window ?? nil
+}
+var sizeScreen: CGSize {
+	var size = UIScreen.main.bounds.size
+	if size.height < size.width {
+		let tmp = size.height
+		size.height = size.width
+		size.width = tmp
+	}
+	return size
+}
+var widthScreen: CGFloat {
+	return sizeScreen.width
+}
+var heightScreen: CGFloat {
+	return sizeScreen.height
+}
+func delay(_ delay: Double, closure: @escaping () -> Void) {
+	DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+		closure()
+	}
+}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+		
     }
 
     override func didReceiveMemoryWarning() {

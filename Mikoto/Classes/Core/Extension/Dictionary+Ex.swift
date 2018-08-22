@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension Dictionary {
+extension Dictionary {
     
     public var toString: String? {
 		let str: String?

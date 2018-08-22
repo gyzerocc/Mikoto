@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension DateFormatter {
+extension DateFormatter {
     
     private static var _formatter = DateFormatter()
     

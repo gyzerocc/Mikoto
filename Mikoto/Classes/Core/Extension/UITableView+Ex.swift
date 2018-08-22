@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension UITableView {
+extension UITableView {
     
     public func hideEmptyCells() {
         tableFooterView = UIView(frame: .zero)

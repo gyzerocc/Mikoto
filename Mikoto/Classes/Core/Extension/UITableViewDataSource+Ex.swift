@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension UITableViewDataSource {
+extension UITableViewDataSource {
     
     /// return total rows in the tableView
     public func totalRows(tableView: UITableView) -> Int {

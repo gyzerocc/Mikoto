@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension UIColor {
+extension UIColor {
 	
 	@available(iOS 10.0, *)
 	public var toImage: UIImage {

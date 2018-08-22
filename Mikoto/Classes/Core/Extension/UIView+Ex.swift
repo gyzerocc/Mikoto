@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension UIView {
+extension UIView {
     
     public func rounded(_ radius: CGFloat = 0) {
         if radius != 0 {

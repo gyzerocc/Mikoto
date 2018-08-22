@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension CALayer {
+extension CALayer {
     
     public func gradient(colors: [Any]?, locations: [NSNumber]?, startPoint: CGPoint, endPoint: CGPoint, frame: CGRect) {
         let gradient = CAGradientLayer()

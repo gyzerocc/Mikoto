@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension DispatchQueue {
+extension DispatchQueue {
     
     private static var _onceTracker = [String]()
     

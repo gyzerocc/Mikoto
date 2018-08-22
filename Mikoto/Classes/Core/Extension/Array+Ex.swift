@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension Array {
+extension Array {
     
     public var toString: String? {
 		let str: String?

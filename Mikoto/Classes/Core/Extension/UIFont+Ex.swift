@@ -7,7 +7,7 @@
 
 import UIKit
 
-public extension UIFont {
+extension UIFont {
     
     public class func printAllNames() {
         let familyNames = UIFont.familyNames

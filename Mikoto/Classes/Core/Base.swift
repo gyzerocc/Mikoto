@@ -1,6 +1,6 @@
 //
-//  Base.swift
-//  Base_Example
+//  Mikoto.swift
+//  Mikoto_Example
 //
 //  Created by 龚阳 on 2018/4/7.
 //  Copyright © 2018年 CocoaPods. All rights reserved.

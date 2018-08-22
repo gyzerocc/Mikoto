@@ -1,6 +1,6 @@
 //
 //  Namespace.swift
-//  Base
+//  Mikoto
 //
 //  Created by 龚阳 on 2018/4/26.
 //
@@ -9,8 +9,8 @@ import Foundation
 
 public protocol NamespaceWrappable {
     associatedtype WrapperType
-    var ba: WrapperType { get }
-    static var ba: WrapperType.Type { get }
+    var mkt: WrapperType { get }
+    static var mkt: WrapperType.Type { get }
 }
 
 public protocol TypeWrapperProtocol {
@@ -27,11 +27,11 @@ public struct NamespaceWrapper<T>: TypeWrapperProtocol {
 }
 
 public extension NamespaceWrappable {
-    public var ba: NamespaceWrapper<Self> {
+    public var mkt: NamespaceWrapper<Self> {
         return NamespaceWrapper(value: self)
     }
     
-    public static var ba: NamespaceWrapper<Self>.Type {
+    public static var mkt: NamespaceWrapper<Self>.Type {
         return NamespaceWrapper.self
     }
 }
@@ -45,4 +45,4 @@ extension TypeWrapperProtocol where WrappedType == String {
     }
 }
 
-//"foo".ba.test
+//"foo".mkt.test

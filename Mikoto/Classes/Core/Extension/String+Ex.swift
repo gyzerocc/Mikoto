@@ -1,6 +1,6 @@
 //
 //  String+Ex.swift
-//  Base
+//  Mikoto
 //
 //  Created by 龚阳 on 2018/4/8.
 //

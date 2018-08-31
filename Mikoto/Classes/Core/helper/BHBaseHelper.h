@@ -32,6 +32,7 @@
  @return 已经去除表情的字符串
  */
 + (nonnull NSString *)removeEmojiWithString:(nonnull NSString *)string;
++ (BOOL)containEmojiWithString:(nonnull NSString *)string;
 
 @end
 

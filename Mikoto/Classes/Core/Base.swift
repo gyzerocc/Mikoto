@@ -54,7 +54,7 @@ public func RGB(_ r: CGFloat,_ g: CGFloat,_ b:CGFloat) -> UIColor {
 ///   - b: blue
 ///   - a: alpha
 /// - Returns: return RGBA Color
-@available(*, deprecated, renamed: "UIColor.RGB(_:_:_:_:)")
+@available(*, deprecated, renamed: "UIColor.RGBA(_:_:_:_:)")
 public func RGBA(_ r: CGFloat,_ g: CGFloat,_ b:CGFloat,_ a: CGFloat) -> UIColor {
 	let n: CGFloat = 255.0
 	let color = UIColor.init(red: r/n, green: g/n, blue: b/n, alpha: a)

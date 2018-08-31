@@ -71,13 +71,15 @@ public class CtmTextView: UITextView {
 		// 限制长度
 		if temp.count > maxLength {
 			temp = String(temp[..<temp.index(temp.startIndex, offsetBy: maxLength)])
+			self.text = temp
 		}
 		
 		// 筛选表情
-		if filterEmoji {
+		if filterEmoji && temp.containEmoji {
 			temp = temp.removeEmoji
+			self.text = temp
 		}
-		self.text = temp
+		
 		
 		countLabel.text = "\(maxLength - temp.count)"
 		placeholderLabel.isHidden = hasText

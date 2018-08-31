@@ -35,11 +35,13 @@ public class CtmTextField: UITextField {
 		// 限制长度
 		if temp.count > maxLength {
 			temp = String(temp[..<temp.index(temp.startIndex, offsetBy: maxLength)])
+			self.text = temp
 		}
 		
 		// 筛选表情
-		if filterEmoji {
+		if filterEmoji && temp.containEmoji {
 			temp = temp.removeEmoji
+			self.text = temp
 		}
 		
 		// 保留小数点
@@ -48,10 +50,10 @@ public class CtmTextField: UITextField {
 				let arr = temp.components(separatedBy: ".")
 				if let decimal = arr.last, decimal.count > toFixed {
 					temp = String(temp[..<temp.index(temp.endIndex, offsetBy: -1)])
+					self.text = temp
 				}
 			}
 		}
-		self.text = temp
 	}
 	
 }

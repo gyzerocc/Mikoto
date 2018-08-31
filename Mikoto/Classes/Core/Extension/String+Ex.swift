@@ -22,7 +22,10 @@ extension String {
 		return num
 	}
 	
-	/// 去掉emoji
+	public var containEmoji: Bool {
+		return BHBaseHelper.containEmoji(with: self)
+	}
+	
 	public var removeEmoji: String {
 		return BHBaseHelper.removeEmoji(with: self)
 	}

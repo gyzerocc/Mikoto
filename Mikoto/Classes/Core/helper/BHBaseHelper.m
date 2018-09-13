@@ -118,7 +118,7 @@
 @implementation UIView (Ex)
 
 - (nullable UIViewController *)superViewController {
-    for (UIView* next = [self superview]; next; next = next.superview) {
+    for (UIView* next = self; next; next = next.superview) {
         UIResponder *nextResponder = [next nextResponder];
         if ([nextResponder isKindOfClass:[UIViewController class]]) {
             return (UIViewController *)nextResponder;

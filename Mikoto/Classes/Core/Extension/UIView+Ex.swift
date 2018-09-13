@@ -8,6 +8,21 @@
 import UIKit
 
 extension UIView {
+	
+	public func safeArea() -> UIEdgeInsets {
+		if #available(iOS 11.0, *) {
+			return safeAreaInsets
+		} else {
+			var insets: UIEdgeInsets = .init(top: 20, left: 0, bottom: 0, right: 0)
+			if let _ = superViewController()?.navigationController {
+				insets.top = 64
+			}
+			if let _ = superViewController()?.tabBarController {
+				insets.bottom = 49
+			}
+			return insets
+		}
+	}
     
     public func rounded(_ radius: CGFloat = 0) {
         if radius != 0 {

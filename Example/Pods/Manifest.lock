@@ -1,7 +1,7 @@
 PODS:
-  - Mikoto (0.3.0):
-    - Mikoto/Core (= 0.3.0)
-  - Mikoto/Core (0.3.0):
+  - Mikoto (0.3.1):
+    - Mikoto/Core (= 0.3.1)
+  - Mikoto/Core (0.3.1):
     - SVProgressHUD (~> 2.2.5)
     - Toast (~> 4.0.0)
   - SVProgressHUD (2.2.5)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mikoto: 4ff5af022c8ef3258dd971de9eb5be21114355e7
+  Mikoto: bed04e3cd2565281be8458cf2f228fa4271d7817
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 

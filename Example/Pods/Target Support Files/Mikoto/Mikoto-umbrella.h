@@ -12,6 +12,7 @@
 
 #import "UIViewController+Dealloc.h"
 #import "BHBaseHelper.h"
+#import "RSA.h"
 
 FOUNDATION_EXPORT double MikotoVersionNumber;
 FOUNDATION_EXPORT const unsigned char MikotoVersionString[];

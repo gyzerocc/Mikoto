@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'Mikoto_Example' do
   pod 'Mikoto', :path => '../'
+  pod 'Mikoto/Encrypt', :path => '../'
 
   target 'Mikoto_Tests' do
     inherit! :search_paths

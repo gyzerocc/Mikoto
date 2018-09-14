@@ -16,9 +16,9 @@ public class Regex {
 		return predicate.evaluate(with:verificationCode)
 	}
 	
-    //密码正则验证
+    //6~20密码正则验证(匹配字母或数字开头，至少包含字母、数字、符号其中两者)
     public class func isValid(password: String) -> Bool {
-        let regex = "^[a-zA-Z0-9]{6,20}+$"
+        let regex = "^((?!\\d+$)(?![a-zA-Z]+$)[a-zA-Z\\d@#$%^&_+].{5,19})+$"
         let predicate = NSPredicate(format: "SELF MATCHES %@", regex)
         return predicate.evaluate(with:password)
     }

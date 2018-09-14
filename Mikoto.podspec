@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Encrypt' do |enc|
 	  enc.dependency 'CryptoSwift', '~> 0.11.0'
-	  enc.source_files = 'Mikoto/Classes/Encrypt/**/*'
+	  enc.source_files = 'Mikoto/Classes/Encrypt/*'
   end
   
   # s.resource_bundles = {

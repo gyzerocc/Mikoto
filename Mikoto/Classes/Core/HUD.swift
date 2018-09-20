@@ -10,11 +10,9 @@ import UIKit
 import SVProgressHUD
 import Toast
 
-public let HUD = Hud.shared
-
 final public class Hud {
     
-    static let shared = Hud()
+    public static let shared = Hud()
     private init() {
         // svp
         SVProgressHUD.setMaximumDismissTimeInterval(8.0)

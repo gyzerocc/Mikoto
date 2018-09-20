@@ -7,12 +7,6 @@
 
 import Foundation
 
-extension Bool {
-	public mutating func toggle() {
-		self = !self
-	}
-}
-
 extension CGSize {
 	public static func itemSize(area: CGRect, column: Int, row: Int, sectionInsets: UIEdgeInsets, itemSpace: CGFloat, lineSpace: CGFloat) -> CGSize {
 		let width = (area.width - sectionInsets.left - sectionInsets.right - (CGFloat(column) - 1) * itemSpace) / CGFloat(column)

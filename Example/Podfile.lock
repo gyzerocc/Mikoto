@@ -1,11 +1,11 @@
 PODS:
   - CryptoSwift (0.11.0)
-  - Mikoto (0.3.4):
-    - Mikoto/Core (= 0.3.4)
-  - Mikoto/Core (0.3.4):
+  - Mikoto (0.4.0):
+    - Mikoto/Core (= 0.4.0)
+  - Mikoto/Core (0.4.0):
     - SVProgressHUD (~> 2.2.5)
     - Toast (~> 4.0.0)
-  - Mikoto/Encrypt (0.3.4):
+  - Mikoto/Encrypt (0.4.0):
     - CryptoSwift (~> 0.11.0)
   - SVProgressHUD (2.2.5)
   - Toast (4.0.0)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
-  Mikoto: 6421b93c07c49020006fea4330c7d13c11b6c2d4
+  Mikoto: 07d9cadec212944dc8dd2da2e4e38b806411b933
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 

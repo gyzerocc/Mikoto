@@ -61,7 +61,7 @@ public class CtmTextView: UITextView {
 	func setup() {
 		addSubview(placeholderLabel)
 		addSubview(countLabel)
-		NotificationCenter.default.addObserver(self, selector: #selector(textDidChangeNotification), name: NSNotification.Name.UITextViewTextDidChange, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(textDidChangeNotification), name: UITextView.textDidChangeNotification, object: nil)
 	}
 	
 	func textDidChangeNotification() {

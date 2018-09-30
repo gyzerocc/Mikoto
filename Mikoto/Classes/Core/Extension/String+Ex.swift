@@ -117,7 +117,7 @@ extension String {
     public func textSize(font: UIFont, refrain: CGSize) -> CGSize {
         var size: CGSize
         let str = NSString(string: self)
-        let attr = [NSAttributedStringKey.font: font]
+		let attr = [NSAttributedString.Key.font: font]
         
         if refrain.equalTo(.zero) {
             size = str.size(withAttributes: attr)

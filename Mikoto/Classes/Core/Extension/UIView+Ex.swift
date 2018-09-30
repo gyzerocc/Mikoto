@@ -37,11 +37,11 @@ extension UIView {
     /// 浮动效果
     public func floating() {
         let path = CAKeyframeAnimation(keyPath: "path")
-        path.calculationMode = kCAAnimationPaced
-        path.fillMode = kCAFillModeForwards
+		path.calculationMode = CAAnimationCalculationMode.paced
+		path.fillMode = CAMediaTimingFillMode.forwards
         path.repeatCount = Float.greatestFiniteMagnitude
         path.autoreverses = true
-        path.timingFunction = CAMediaTimingFunction(name: "linear")
+		path.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName(rawValue: "linear"))
         path.duration = CFTimeInterval(arc4random_uniform(3)+4)
         let bpath = UIBezierPath(ovalIn: frame.insetBy(dx: bounds.size.width/2-5, dy: bounds.size.width/2-5))
         path.path = bpath.cgPath
@@ -64,11 +64,6 @@ extension UIView {
         layer.add(scaley, forKey: "scaley")
     }
     
-    /**
-     if view or subviews is first responder, find and resign it
-     
-     - returns: retun true if find and resign first responder, otherwise return false
-     */
     public func findAndResignFirstResponder() -> Bool {
         if self.isFirstResponder {
             self.resignFirstResponder()

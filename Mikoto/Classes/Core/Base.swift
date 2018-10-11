@@ -31,6 +31,10 @@ func delay(_ delay: Double, closure: @escaping () -> Void) {
         closure()
     }
 }
+func debugOnly(_ body: () -> Void) {
+	assert({ body(); return true }())
+}
+
 
 /// RGB
 ///

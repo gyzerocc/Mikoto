@@ -8,10 +8,10 @@
 
 import UIKit
 
-var windowMain: UIWindow? {
+internal var windowMain: UIWindow? {
     return UIApplication.shared.delegate?.window ?? nil
 }
-var sizeScreen: CGSize {
+internal var sizeScreen: CGSize {
     var size = UIScreen.main.bounds.size
     if size.height < size.width {
         let tmp = size.height
@@ -20,18 +20,18 @@ var sizeScreen: CGSize {
     }
     return size
 }
-var widthScreen: CGFloat {
+internal var widthScreen: CGFloat {
     return sizeScreen.width
 }
-var heightScreen: CGFloat {
+internal var heightScreen: CGFloat {
     return sizeScreen.height
 }
-func delay(_ delay: Double, closure: @escaping () -> Void) {
+internal func delay(_ delay: Double, closure: @escaping () -> Void) {
     DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
         closure()
     }
 }
-func debugOnly(_ body: () -> Void) {
+internal func debugOnly(_ body: () -> Void) {
 	assert({ body(); return true }())
 }
 
